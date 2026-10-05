@@ -1,0 +1,443 @@
+{
+ "updated": "2026-10-05",
+ "items": [
+  {
+   "date": "2026-11-15",
+   "tag": "11月予定",
+   "r": "海外",
+   "title": "Adobe MAX 2026 は11月10〜12日（マイアミ）",
+   "summary": "Adobeの年次イベントAdobe MAXは、今年はマイアミ・ビーチで11月10〜12日に開かれます（オンライン配信は11月10〜11日）。例年、PremiereなどCreative Cloudの大型アップデートが発表される場です。",
+   "note": "出典：Adobe MAX 公式FAQ（英語）",
+   "links": [
+    [
+     "Adobe MAX FAQ（英語）",
+     "https://max.adobe.com/faq/"
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "date": "2026-10-23",
+   "tag": "10月23日・30日",
+   "r": "海外",
+   "title": "DaVinci Resolve 21 の無料オンラインセミナー",
+   "summary": "Blackmagic Designが、Resolve 21の無料オンラインセミナー（1回90分・Zoom）を秋に全6回開いています。10月23日は編集者向けのカラーの基礎、10月30日は他のソフトからResolveに乗り換える人向けの内容です。英語での開催で、回ごとに登録が必要です。",
+   "note": "出典：Blackmagic Design 公式、RedShark News（英語）",
+   "links": [
+    [
+     "Blackmagic 公式（英語）",
+     "https://www.blackmagicdesign.com/event/davinci-resolve-online-seminars"
+    ],
+    [
+     "RedShark（英語）",
+     "https://www.redsharknews.com/davinci-resolve-21-free-webinars-2026"
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "date": "2026-10-15",
+   "tag": "10月",
+   "r": "海外",
+   "title": "モーショングラフィックスはAIで急速に低価格化？（ブログの見方）",
+   "summary": "海外の起業家向けブログが、コードで動きを作るAI（Opus 5.5）によって、広告や説明動画のモーション制作の一部が速く安くなっていると主張しています。",
+   "note": "個人ブログの見解であり、評価は分かれる可能性があります。出典：Mean CEO（英語）",
+   "links": [
+    [
+     "Mean CEO（英語）",
+     "https://blog.mean.ceo/motion-design-news-october-2026/"
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "date": "2026-10-06",
+   "tag": "10月6日発売",
+   "r": "国内",
+   "title": "AI動画の専門誌「AI動画最前線」が発売",
+   "summary": "飛鳥出版から、AI動画クリエイター向けの雑誌「AI動画最前線 AI動画の現在と未来像」が10月6日に発売されます（1,760円）。制作手法、最新ツールの解説、法律面の注意点、業界関係者へのインタビュー12本などを収録。AIで動画を作り始める人向けの入門ページもあります。",
+   "note": "出典：AI Watch（国内）",
+   "links": [
+    [
+     "AI Watch",
+     "https://ai.watch.impress.co.jp/docs/news/2138869.html"
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "date": "2026-10-05",
+   "tag": "10月5日確認",
+   "r": "国内",
+   "title": "PowerDirector 2027（買い切り版）が公式に掲載、365は秋のセール",
+   "summary": "CyberLinkの公式料金ページで、買い切り版の名称がPowerDirector 2027（16,980円）になっています。サブスク版のPowerDirector 365は、10月12日まで25%OFF（年6,700円）です。",
+   "note": "PowerDirector 2027の発売日・新機能は今回確認できず、要確認。出典：CyberLink 公式",
+   "links": [
+    [
+     "CyberLink 料金ページ",
+     "https://jp.cyberlink.com/products/powerdirector-video-editing-software/pricing_ja_JP.html"
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "date": "2026-10-04",
+   "tag": "10月4日",
+   "r": "国内",
+   "title": "AviUtl ExEdit2 2.1.12 が公開",
+   "summary": "公式サイト「AviUtlのお部屋」で、インストーラ版とzip版の2.1.12が公開されました。9月下旬から短い間隔で更新が続いています。",
+   "note": "出典：AviUtlのお部屋（公式）",
+   "links": [
+    [
+     "AviUtlのお部屋",
+     "https://spring-fragrance.mints.ne.jp/aviutl/"
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "date": "2026-10-02",
+   "tag": "10月2日",
+   "r": "国内",
+   "title": "DaVinci Resolve 21.1.1：トリム編集の改善など",
+   "summary": "トリムエディタの操作改善、音声のみのクリップ編集、Canon EOS R8 Mark IIのCR3 RAW対応、OGrafやマルチカム編集の改善が入りました。Studio版では、非同期APIやMagic Maskなどの不具合も修正されています。",
+   "note": "出典：framewld（国内）",
+   "links": [
+    [
+     "framewld",
+     "https://www.framewld.com/davinci-resolve2111/"
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "date": "2026-10-01",
+   "tag": "10月1日",
+   "r": "海外",
+   "title": "Final Cut Pro 13 の内容がリーク？（未発表）",
+   "summary": "YouTuberが誤って公開・削除した動画のチャプター情報から、Pixelmator Proとの連携強化、自然なモーションブラー、文字起こしの対応言語拡大、キーフレームのイージングなどが含まれると報じられました。年内に新しいMacと一緒に発表される可能性があるとされています。",
+   "note": "Appleは未発表で、内容は要確認です。出典：AppleInsider（英語）",
+   "links": [
+    [
+     "AppleInsider（英語）",
+     "https://appleinsider.com/articles/26/10/01/final-cut-pro-13-leaks-ahead-of-announcement-with-several-new-features"
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "date": "2026-10-01",
+   "tag": "10月1日",
+   "r": "海外",
+   "title": "Instagram「Edits」にAIアシスタント",
+   "summary": "CapCutの対抗とされるMetaの編集アプリEditsに、再生数や視聴維持率、反応などを分析して助言する対話型AIアシスタントが順次提供されています。編集作業そのものより、分析に重点を置いた機能です。利用回数には上限があります。",
+   "note": "出典：Business Today（英語）",
+   "links": [
+    [
+     "Business Today（英語）",
+     "https://businesstoday.in/technology/news/story/instagram-edits-gets-ai-assistant-capcut-rival-can-now-analyse-your-videos-and-audience-trends-558990-2026-10-01"
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "date": "2026-10-01",
+   "tag": "10月1日",
+   "r": "海外",
+   "title": "DaVinci Resolve 21.1.1 が公開",
+   "summary": "21.1の後を受けた小規模アップデート。トリムエディタが音声のみのクリップや複数の編集点に対応し、マウスでトリムする際に音声もプレビューできるようになりました。Windows 11でのUSAC音声デコード、複数のFusionエフェクトを個別に調整する機能、複数人作業時の接続安定性の改善も入っています。",
+   "note": "出典：Newsshooter／RedShark News／4K Shooters（英語）、framewld（日本語）",
+   "links": [
+    [
+     "Newsshooter",
+     "https://www.newsshooter.com/2026/10/01/davinci-resolve-21-1-1/"
+    ],
+    [
+     "RedShark（英語）",
+     "https://www.redsharknews.com/davinci-resolve-21-1-1-whats-new"
+    ],
+    [
+     "日本語記事",
+     "https://www.framewld.com/davinci-resolve2111/"
+    ],
+    [
+     "4K Shooters（英語）",
+     "https://www.4kshooters.net/2026/10/02/davinci-resolve-21-1-1-refines-trim-editing-fusion-effects-and-collaboration/"
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "date": "2026-09-29",
+   "tag": "9月29日",
+   "r": "海外",
+   "title": "Final Cut Pro for iPad 3.4 が公開",
+   "summary": "Mac版12.4と同じ日に公開。Final Cut Cameraで撮ったシネマティックモード映像のピント位置・被写界深度を後から調整できるようになりました。画面は新しいLiquid Glassデザインに変わり、プロジェクト設定へのアクセスやメニューバーの項目、キーボードショートカット13種も追加されています。",
+   "note": "出典：Apple リリースノート（英語）",
+   "links": [
+    [
+     "Apple リリースノート（iPad版）",
+     "https://support.apple.com/en-us/102731"
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "date": "2026-09-29",
+   "tag": "9月29日",
+   "r": "海外",
+   "title": "Final Cut Pro 12.4 と Final Cut Camera 2.4 が公開",
+   "summary": "Final Cut Pro 12.4では、Final Cut Cameraで撮ったシネマティックモードの映像を、タイムライン上でピント位置や被写界深度を変えて編集できるようになりました。SNS向けのHEVC／MPEG-4書き出しプリセットも追加。同時に出たFinal Cut Camera 2.4は、iPhone 18 Proの可変絞りに対応し、画面デザインも一新されています。",
+   "note": "出典：Apple（リリースノート・ニュースルーム）、RedShark News、CineD（英語）",
+   "links": [
+    [
+     "Apple リリースノート",
+     "https://support.apple.com/en-us/102825"
+    ],
+    [
+     "Apple Newsroom",
+     "https://www.apple.com/newsroom/2026/09/final-cut-camera-now-supports-variable-aperture-on-iphone-18-pro/"
+    ],
+    [
+     "RedShark（英語）",
+     "https://www.redsharknews.com/final-cut-camera-2-4-final-cut-pro-12-4"
+    ],
+    [
+     "CineD（英語）",
+     "https://www.cined.com/apple-final-cut-camera-2-4-and-final-cut-pro-12-4-released-iphone-18-pro-aperture-control-clean-sdi-out-cinematic-refocus-in-post/"
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "date": "2026-09-24",
+   "tag": "9月24日",
+   "r": "国内",
+   "title": "Android版「Adobe Premiere」の配信を開始",
+   "summary": "2025年10月のiPhone版に続くリリース。広告や透かしなしで使え、最大4Kの編集・書き出しに対応。マルチトラックのタイムラインと、ワンタップで背景ノイズを減らすAI「オーディオを強調」を備えます。",
+   "note": "出典：デジカメ Watch（国内）",
+   "links": [
+    [
+     "デジカメ Watch",
+     "https://dc.watch.impress.co.jp/docs/news/2142831.html"
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "date": "2026-09-23",
+   "tag": "9月23日",
+   "r": "海外",
+   "title": "AdobeがTopaz Labsの買収を完了",
+   "summary": "AI高画質化ツール（Topaz Video、Gigapixelなど）で知られるTopaz Labsの買収を、Adobeが完了しました。6月に発表されていたもので、買収額は約3億4,000万ドルと報じられています。Topazの製品は単体でも引き続き提供され、技術はAdobeのツールに組み込まれていく予定です。",
+   "note": "出典：Newsshooter、Forbes（英語）",
+   "links": [
+    [
+     "Newsshooter（英語）",
+     "https://www.newsshooter.com/2026/09/23/adobe-completes-its-acquisition-of-topaz-labs/"
+    ],
+    [
+     "Forbes（英語）",
+     "https://www.forbes.com/sites/dbloom/2026/09/23/adobe-closes-topaz-labs-deal-adds-ai-video--image-enhancement-tools/"
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "date": "2026-09-23",
+   "tag": "9月23日",
+   "r": "海外",
+   "title": "Filmora 16 が登場",
+   "summary": "Filmoraの新バージョン16.0が公開されました。被写体を追いかけるカメラトラッキング、選んだ色の範囲だけを補正するカラーマスク、360°動画を通常の画角にする機能、クリップをAIで分類する機能、画面・カメラ・音声の同時録画などが入っています。用途に合わせて縦横比や言語を変えた複数バージョンを一度に書き出す機能も紹介されています。",
+   "note": "公開日は海外の紹介記事による。出典：Filmora公式 バージョン履歴（日本語）、Elearning Supporter（英語）",
+   "links": [
+    [
+     "Filmora バージョン履歴",
+     "https://filmora.wondershare.jp/whats-new-in-filmora-video-editor.html"
+    ],
+    [
+     "Elearning Supporter（英語）",
+     "https://elearningsupporter.com/2026/09/23/wondershare-filmora-16-whats-new/"
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "date": "2026-09-21",
+   "tag": "9月21日",
+   "r": "国内",
+   "title": "無料の「Clipchamp」にAIアップスケール機能",
+   "summary": "Microsoftの動画編集アプリClipchampに、低解像度の動画をAIで最大4Kまで高画質化する機能が追加されました。Windows 11のデスクトップ版が対象で、処理はクラウドではなくPC内で行われます。追加料金やクレジットは不要で、NPUを積んだCopilot+ PCでは省電力で動くとされています。",
+   "note": "AIによる推定で補う仕組みのため、元にない細部が復元されるわけではありません。出典：窓の杜（国内）",
+   "links": [
+    [
+     "窓の杜",
+     "https://forest.watch.impress.co.jp/docs/news/2143092.html"
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "date": "2026-09-15",
+   "tag": "9月",
+   "r": "海外",
+   "title": "Premiere：IBC 2026でColor Modeの新機能を披露",
+   "summary": "Adobeの担当者が、Premiereベータの新しいColor Modeを実演。新しいカラーモジュール3種、HSLマスク、ワンクリックのAuto Color（露出とホワイトバランスをまとめて調整し、シーケンス全体にも適用可）が紹介されました。Tangent社のカラーコントロールサーフェス「Wave 2」との連携試作機も展示されています。",
+   "note": "出典：RedShark News（英語）",
+   "links": [
+    [
+     "RedShark（英語）",
+     "https://www.redsharknews.com/adobe-premiere-ibc2026-video"
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "date": "2026-09-09",
+   "tag": "9月9日",
+   "r": "海外",
+   "title": "DaVinci Resolve 21.1：AI連携とPythonの扱いが変更",
+   "summary": "外部のAIアシスタントからResolveを操作できる仕組み（MCP）が入った一方、高度なPythonスクリプトはStudio版限定に。理由として、無料版でStudioの機能を使う抜け道に使われていたことが挙げられています。",
+   "note": "出典：CineD（英語）",
+   "links": [
+    [
+     "CineD（英語）",
+     "https://www.cined.com/davinci-resolve-21-1-released-ai-assistant-integration-via-mcp-individual-hdr-trims-and-python-scripting-moves-to-studio/"
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "date": "2026-09-08",
+   "tag": "9月8日",
+   "r": "国内",
+   "title": "Adobe、IBC2026に合わせてPremiereなどを更新（生成AI中心）",
+   "summary": "Premiere、After Effects、Frame.ioが対象。Premiereでは、タイムライン上からプロンプトを入力して素材を生成でき、ソースモニターやプログラムモニターから参照フレームを直接取得して、他のシーンと統一感のある映像を作れるようになりました。",
+   "note": "出典：デジカメ Watch（国内）",
+   "links": [
+    [
+     "デジカメ Watch",
+     "https://dc.watch.impress.co.jp/docs/news/2139087.html"
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "date": "2026-09-08",
+   "tag": "9月8日",
+   "r": "海外",
+   "title": "Premiere：タイムライン上で映像・音を生成する新ツール",
+   "summary": "Adobeは、タイムラインの空いた区間を指定して、映像や効果音をその場で生成できる「Generative Media Tool」を発表。周りの映像を参考にして、雰囲気の合ったクリップを作る仕組みです。モデルはAdobe Fireflyのほか、Google Veo、Kling、Runway、Lumaから選べます。 あわせて、ノイズ除去の新しいEnhance Audio、重なった話し声を分ける機能、自動ダッキング（いずれも公開ベータ）なども紹介されました。",
+   "note": "出典：Adobe公式ブログ、ProVideo Coalition（英語）",
+   "links": [
+    [
+     "Adobe Blog（英語）",
+     "https://blog.adobe.com/en/publish/2026/09/08/generate-create-directly-in-your-timeline-with-new-ai-powered-innovations-in-premiere-after-effects"
+    ],
+    [
+     "ProVideo Coalition（英語）",
+     "https://www.provideocoalition.com/adobes-ibc-release-for-premiere-and-after-effects/"
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "date": "2026-09-07",
+   "tag": "9月7日",
+   "r": "国内",
+   "title": "CapCut、初のコミュニティイベント「CapCut World」を開催",
+   "summary": "9月5日にシンガポールで開催。ユーザー数が6億6,000万人を突破したと発表され、作品の制作過程を共有できる新機能「Skills」の提供も始まりました。",
+   "note": "出典：APPBANK（国内）",
+   "links": [
+    [
+     "APPBANK",
+     "https://www.appbank.net/2026/09/08/iphone-news/3097489.php"
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "date": "2026-08-31",
+   "tag": "8月31日",
+   "r": "国内",
+   "title": "OpenShot 4.0：約3年9か月ぶりのメジャーアップデート",
+   "summary": "無料のオープンソース動画編集ソフト。カラーグレーディング対応、ローカルAIの導入、10種類の新エフェクト、タイムラインの刷新などが入りました。",
+   "note": "出典：窓の杜（国内）",
+   "links": [
+    [
+     "窓の杜",
+     "https://forest.watch.impress.co.jp/docs/news/2137683.html"
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "date": "2026-06-30",
+   "tag": "6月30日",
+   "r": "国内",
+   "title": "Apple Creator Studioが大型アップデート：Final Cut Proに自動字幕",
+   "summary": "Final Cut Proに、音声を自動で文字起こしして字幕を置く機能と、編集点の自動検出が追加され、Pixelmator Proとの連携も入りました。料金は月1,780円または年17,800円で、新規は1か月無料。学生・教職員は月480円です。",
+   "note": "日本語への対応状況は、記事でも触れられています。使う前に確認してください。出典：gori.me（国内）",
+   "links": [
+    [
+     "gori.me",
+     "https://gori.me/?p=167627"
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "date": "2026-04-15",
+   "tag": "4月",
+   "r": "海外",
+   "title": "Premiere Color Mode とは",
+   "summary": "NAB 2026の直前に発表された、編集者向けのカラーグレーディング専用ワークスペース。編集画面から離れずに色補正でき、画面を大きく使った操作と、調整中に出るスコープ付きの表示が特徴です。公開ベータとして提供され、正式版は2026年内の予定と報じられています。",
+   "note": "出典：PetaPixel／80.lv（英語）",
+   "links": [
+    [
+     "PetaPixel",
+     "https://petapixel.com/2026/04/15/adobe-premieres-new-color-mode-is-a-first-of-its-kind-color-editing-experience/"
+    ],
+    [
+     "80.lv",
+     "https://80.lv/articles/adobe-introduces-color-grading-mode-for-premiere-in-public-beta"
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "date": "2026-03-16",
+   "tag": "3月16日",
+   "r": "海外",
+   "title": "AppleがMotionVFXを買収",
+   "summary": "Final Cut Pro向けプラグイン大手のMotionVFXをAppleが買収し、約70人の社員がAppleに加わると報じられています。販売サイトは当面継続していますが、Premiere・Resolve向けを含む今後の扱いは未公表です。",
+   "note": "出典：TechCrunch／PetaPixel（英語）",
+   "links": [
+    [
+     "TechCrunch",
+     "https://techcrunch.com/2026/03/16/apple-acquires-video-editing-software-company-motionvfx"
+    ],
+    [
+     "PetaPixel",
+     "https://petapixel.com/2026/03/16/apple-acquires-video-editor-plugin-company-motionvfx/"
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "date": "2026-01-01",
+   "tag": "統計",
+   "r": "海外",
+   "title": "編集者の約6割がAI機能を利用（海外記事）",
+   "summary": "海外メディアMemeburnは、2026年に編集者の58%がAI機能を使っていると紹介。文字起こしによるテキストベース編集、被写体のマスク、生成AIがどの主要ソフトにも広がっているとまとめています。",
+   "note": "集計元の信頼性は未確認の参考値です。出典：Memeburn（英語）",
+   "links": [
+    [
+     "Memeburn（英語）",
+     "https://memeburn.com/best-video-editing-software/"
+    ]
+   ],
+   "auto": false
+  }
+ ]
+}
