@@ -44,16 +44,16 @@ EXTRA_CSS = (".tabs a{flex:none;border:1px solid var(--line);background:#03060a;
              "border-radius:4px;font-size:.9rem;text-decoration:none}.tabs a:hover{color:var(--text);border-color:var(--acc)}"
              ".tabs a[aria-current=\"page\"]{background:var(--acc);border-color:var(--acc);color:#001015;font-weight:700;"
              "box-shadow:0 0 16px rgba(39,224,255,.55)}"
-             ".tabs{padding-right:56px}h1,.wrap>.upd:first-child{padding-right:52px}"
+             ".wrap>h1,.wrap>.upd,.tabs{padding-left:54px}"
              # 右上の「☰」メニュー（JavaScriptなしで開閉できる）
-             "details.menu{position:fixed;top:calc(env(safe-area-inset-top,0px) + 12px);right:12px;z-index:20}"
-             "details.menu summary{list-style:none;cursor:pointer;width:42px;height:42px;display:flex;align-items:center;"
+             "details.menu{position:fixed;top:calc(env(safe-area-inset-top,0px) + 14px);left:max(16px,calc((100vw - 860px) / 2 + 16px));z-index:20}"
+             "details.menu summary{list-style:none;cursor:pointer;width:40px;height:40px;display:flex;align-items:center;"
              "justify-content:center;font-size:1.35rem;line-height:1;color:var(--acc);background:rgba(3,6,10,.92);"
              "border:1px solid var(--acc);border-radius:6px;box-shadow:0 0 12px rgba(39,224,255,.35);user-select:none}"
              "details.menu summary::-webkit-details-marker{display:none}"
              "details.menu summary:hover,details.menu[open] summary{background:var(--acc);color:#001015}"
              "details.menu[open] summary .i::before{content:\"✕\"}details.menu summary .i::before{content:\"☰\"}"
-             "details.menu nav{position:absolute;right:0;top:50px;width:min(320px,calc(100vw - 24px));max-height:calc(100vh - 90px);"
+             "details.menu nav{position:absolute;left:0;top:48px;width:min(240px,calc(100vw - 32px));max-height:calc(100vh - 90px);"
              "overflow:auto;background:var(--card);border:1px solid var(--acc);border-radius:6px;padding:8px 0;"
              "box-shadow:0 0 24px rgba(39,224,255,.3)}"
              "details.menu nav p{margin:4px 14px 6px;color:var(--acc);font-family:var(--mono);font-size:.8rem}"
@@ -177,10 +177,10 @@ def nav_tabs(names, current, depth):
 def page_list(names, depth, current=None):
     """右上の「☰」を押すと開くページ一覧（JavaScriptなしで動く）。"""
     items = "".join(
-        f'<li><a href="{rel_of(n, depth) or "./"}"{" aria-current=\"page\"" if n == current else ""}>{TITLES[n]}</a></li>'
+        f'<li><a href="{rel_of(n, depth) or "./"}"{" aria-current=\"page\"" if n == current else ""}>{n}</a></li>'
         for n in names)
     return ('<details class="menu"><summary aria-label="ページ一覧を開く"><span class="i" aria-hidden="true"></span></summary>'
-            f'<nav aria-label="ページ一覧"><p>MENU ／ ページ一覧</p><ul>{items}</ul></nav></details>')
+            f'<nav aria-label="ページ一覧"><p>MENU</p><ul>{items}</ul></nav></details>')
 
 
 def replace_block(src, tag, content, fallback_anchor, before=True, css=False):
