@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DaVinci Resolve の最新情報・価格・プラグイン｜動画編集トピック</title>
+<meta name="description" content="DaVinci Resolve の最新情報・価格・プラグイン。21.1.1 が公開（最新）、無料オンラインセミナー（英語・Zoom）、21.1 が公開（build 14）、21.0.4 アップデート、バージョン21 正式公開、料金">
+<link rel="canonical" href="https://wataru-takano.github.io/douga-topic/davinci-resolve/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="動画編集トピック">
+<meta property="og:title" content="DaVinci Resolve の最新情報・価格・プラグイン｜動画編集トピック">
+<meta property="og:description" content="DaVinci Resolve の最新情報・価格・プラグイン。21.1.1 が公開（最新）、無料オンラインセミナー（英語・Zoom）、21.1 が公開（build 14）、21.0.4 アップデート、バージョン21 正式公開、料金">
+<meta property="og:url" content="https://wataru-takano.github.io/douga-topic/davinci-resolve/">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#000;--card:#060a10;--text:#e4efff;--sub:#7f93a8;--line:#143040;--acc:#27e0ff;--acc2:#7c5cff;--tag:rgba(39,224,255,.1);--warn:#1c1500;--warnt:#ffcf5a;--mono:"Share Tech Mono",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px);background:#000}
+*{box-sizing:border-box}
+body{margin:0;color:var(--text);font-family:-apple-system,"Hiragino Sans","Noto Sans JP",Meiryo,sans-serif;line-height:1.7;
+ background:radial-gradient(900px 380px at 50% -80px,rgba(39,224,255,.16),transparent 70%),
+ linear-gradient(rgba(39,224,255,.045) 1px,transparent 1px) 0 0/40px 40px,
+ linear-gradient(90deg,rgba(39,224,255,.045) 1px,transparent 1px) 0 0/40px 40px,#000;
+ background-attachment:fixed;min-height:100vh}
+.wrap{max-width:860px;margin:0 auto;padding:24px 16px 48px}
+h1{font-size:1.55rem;margin:0 0 4px;letter-spacing:.02em;color:#fff;text-shadow:0 0 18px rgba(39,224,255,.55)}
+.upd{color:var(--acc);font-family:var(--mono);font-size:.85rem;margin:0 0 14px;opacity:.85}
+.pr{color:var(--sub);font-size:.8rem;margin:8px 0 0}
+.note{background:var(--warn);color:var(--warnt);border:1px solid rgba(255,207,90,.35);padding:10px 14px;border-radius:6px;font-size:.85rem}
+.tabs{display:flex;gap:8px;overflow-x:auto;padding:14px 0 10px;position:sticky;top:env(safe-area-inset-top,0px);background:linear-gradient(#000 75%,transparent);z-index:5}
+.tabs button{flex:none;border:1px solid var(--line);background:#03060a;color:var(--sub);padding:8px 14px;border-radius:4px;font:inherit;font-size:.9rem;cursor:pointer}
+.tabs button:hover{color:var(--text);border-color:var(--acc)}
+.tabs button[aria-selected="true"]{background:var(--acc);border-color:var(--acc);color:#001015;font-weight:700;box-shadow:0 0 16px rgba(39,224,255,.55)}
+button:focus-visible,a:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+h2{font-size:1.1rem;margin:26px 0 10px;color:#fff;display:flex;align-items:center;gap:10px}
+h2::before{content:"";width:6px;height:1.1em;background:var(--acc);box-shadow:0 0 12px var(--acc)}
+.card{background:var(--card);border:1px solid var(--line);border-left:2px solid var(--acc);border-radius:4px;padding:14px 16px;margin-bottom:12px}
+.card h3{margin:0 0 4px;font-size:1rem;color:#fff}
+.card p{margin:4px 0;font-size:.92rem}
+details.plg{margin-top:8px}
+details.plg summary{display:inline-block;cursor:pointer;list-style:none;border:1px solid var(--acc);color:var(--acc);padding:6px 14px;border-radius:4px;font-size:.9rem}
+details.plg summary::-webkit-details-marker{display:none}
+details.plg summary:hover,details.plg[open] summary{background:var(--acc);color:#001015;box-shadow:0 0 14px rgba(39,224,255,.45)}
+.pll{list-style:none;padding:0!important;margin:10px 0 4px!important}
+.pll li{display:flex;flex-direction:column;padding:8px 0;border-top:1px solid var(--line)}
+.pll li.cat{border-top:1px solid var(--acc);color:#fff;font-weight:700;font-size:.85rem;padding:12px 0 4px}
+.pll a{color:var(--acc);text-decoration:none;font-weight:600}
+.pll span{color:var(--sub);font-size:.84rem}
+.card ol{margin:6px 0;padding-left:22px;font-size:.92rem}
+.card ol li::marker{color:var(--acc);font-family:var(--mono)}
+.card ul{margin:6px 0;padding-left:20px;font-size:.92rem}
+.card li::marker{color:var(--acc)}
+.tag{display:inline-block;background:var(--tag);color:var(--acc);border:1px solid rgba(39,224,255,.3);font-family:var(--mono);font-size:.75rem;padding:0 8px;border-radius:3px;margin-right:6px}
+.tag.reg{font-family:inherit;font-weight:700;border-radius:3px}
+.tag.reg.jp{background:rgba(255,92,128,.14);color:#ff7a9c;border-color:rgba(255,92,128,.45)}
+.tag.reg.ov{background:rgba(124,92,255,.16);color:#a998ff;border-color:rgba(124,92,255,.5)}
+.st{display:inline-block;padding:0 8px;border-radius:3px;font-size:.78rem;font-weight:700;white-space:nowrap}
+.st.ok{background:rgba(60,220,140,.15);color:#4fe3a0;border:1px solid rgba(60,220,140,.5)}
+.st.q{background:rgba(255,200,80,.14);color:#ffcf5a;border:1px solid rgba(255,200,80,.5)}
+.st.no{background:rgba(160,170,190,.12);color:#9aa5b8;border:1px solid rgba(160,170,190,.35)}
+.date{color:var(--sub);font-size:.78rem}
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:4px}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:.88rem;background:var(--card)}
+td a{color:var(--acc);text-decoration:none;border-bottom:1px solid rgba(39,224,255,.4)}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:#0a1822;color:var(--acc);font-weight:600}
+.card a[data-go]{color:var(--acc);text-decoration:none;border-bottom:1px solid rgba(39,224,255,.4)}
+.card a[data-go]:hover{text-shadow:0 0 8px var(--acc)}
+.lk{font-size:.85rem}.lk a{color:var(--acc);text-decoration:none;border-bottom:1px solid rgba(39,224,255,.4)}
+.lk a:hover{text-shadow:0 0 8px var(--acc)}
+.small{font-size:.82rem;color:var(--sub)}
+footer{color:var(--sub);font-size:.78rem;margin-top:32px;border-top:1px solid var(--line);padding-top:12px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+.tabs a{flex:none;border:1px solid var(--line);background:#03060a;color:var(--sub);padding:8px 14px;border-radius:4px;font-size:.9rem;text-decoration:none}.tabs a:hover{color:var(--text);border-color:var(--acc)}.tabs a[aria-current="page"]{background:var(--acc);border-color:var(--acc);color:#001015;font-weight:700;box-shadow:0 0 16px rgba(39,224,255,.55)}nav.pages{margin-top:28px;font-size:.85rem}nav.pages h2{font-size:.95rem}nav.pages ul{display:flex;flex-wrap:wrap;gap:6px 14px;list-style:none;padding:0;margin:0}nav.pages a{color:var(--acc);text-decoration:none}.pr{color:var(--sub);font-size:.8rem;margin:8px 0 0}</style>
+</head>
+<body>
+<div class="wrap">
+<p class="upd"><a href="../" style="color:inherit;text-decoration:none">🎬 動画編集トピック</a> ／ 最終更新：2026年10月6日</p>
+<h1>DaVinci Resolve の最新情報・価格・プラグイン</h1>
+<div class="note">⚠️ セール・価格は変わりやすい情報です。購入前に必ず公式サイトで最新の価格を確認してください。</div>
+<p class="pr">【PR】当サイトのリンクには、広告（アフィリエイトリンク）を含む場合があります。</p>
+<nav class="tabs" aria-label="ページ"><a href="../">総合</a><a href="../news/">ニュース</a><a href="../videos/">動画</a><a href="../premiere/">Premiere</a><a href="../plugins/">プラグイン</a><a href="../sale/">セール</a><a href="../materials/">素材サイト</a><a href="../davinci-resolve/" aria-current="page">DaVinci Resolve</a><a href="../capcut/">CapCut</a><a href="../filmora/">Filmora</a><a href="../final-cut-pro/">Final Cut Pro</a><a href="../aviutl/">AviUtl</a><a href="../others/">その他</a></nav>
+<main id="panel"><h2>最新情報</h2><div class="card"><h3><span class="tag">10月1日</span>21.1.1 が公開（最新）</h3><p>トリムエディタが音声のみのクリップや複数の編集点に対応。Windows 11でのUSAC音声デコード、複数Fusionエフェクトの個別調整、マルチユーザー作業の安定性改善などが入っています。</p><p class="date">出典：Newsshooter、4K Shooters（英語）</p><p class="lk"><a href="https://www.newsshooter.com/2026/10/01/davinci-resolve-21-1-1/" target="_blank" rel="noopener noreferrer">Newsshooter（英語） ↗</a> ／ <a href="https://www.4kshooters.net/2026/10/02/davinci-resolve-21-1-1-refines-trim-editing-fusion-effects-and-collaboration/" target="_blank" rel="noopener noreferrer">4K Shooters（英語） ↗</a></p></div><div class="card"><h3><span class="tag">10月23日・30日</span>無料オンラインセミナー（英語・Zoom）</h3><p>Blackmagic Design主催の、Resolve 21の無料セミナー（1回90分）。10月23日は編集者向けのカラーの基礎、10月30日はResolveへの乗り換え向け。回ごとに登録が必要です。</p><p class="date">出典：Blackmagic Design 公式、RedShark News（英語）</p><p class="lk"><a href="https://www.blackmagicdesign.com/event/davinci-resolve-online-seminars" target="_blank" rel="noopener noreferrer">Blackmagic 公式（英語） ↗</a> ／ <a href="https://www.redsharknews.com/davinci-resolve-21-free-webinars-2026" target="_blank" rel="noopener noreferrer">RedShark（英語） ↗</a></p></div><div class="card"><h3><span class="tag">9月8日</span>21.1 が公開（build 14）</h3><p>写真フォーマットの対応拡大、AIアシスタントとの連携（MCP経由）などが追加。一方、高度なPythonスクリプトはStudio版限定になり、Python 2のサポートは終了しました。</p></div><div class="card"><h3><span class="tag">8月5日</span>21.0.4 アップデート</h3><p>異なるフォーマットのプロキシクリップの再リンク、Sony FX5向けX-OCN形式の追加、タイムラインの選択クリップを確認するScript APIなど。</p></div><div class="card"><h3><span class="tag">6月3日</span>バージョン21 正式公開</h3><p>写真編集用の「Photo」ページ、AI SlateFinder／SlateID、AI UltraSharpen、AI Motion Deblur、IntelliSearch、CineFocusなどが追加されました。</p></div><h2>価格・セール</h2><div class="card"><h3>料金</h3><p>無料版あり。Studio版は約51,980円の買い切り（海外価格$295）。Studioは追加のAI機能、4K超の編集、写真のフル解像度書き出しなどが使えます。</p><p class="date">今回の調査（10月5日）では、現在実施中のセールは確認できませんでした。</p><p class="lk"><a href="https://www.blackmagicdesign.com/products/davinciresolve" target="_blank" rel="noopener noreferrer">公式ページ ↗</a></p></div><h2>ダウンロード手順</h2><div class="card"><h3>インストールまでの流れ</h3><ol><li>下のリンクから、Blackmagic Designの公式ページを開く</li><li>無料版（DaVinci Resolve）か有料のStudioを選び、使うOS（Windows／Mac／Linux）のダウンロードを押す</li><li>登録情報の入力を求められる場合があるので、案内に沿って進める</li><li>ダウンロードしたファイルを開き、画面の指示に従ってインストールする</li><li>起動して初期設定をする。Studioを購入した場合は、購入したライセンスで認証する</li></ol><p class="date">事前に、公式ページの動作環境（OSやグラフィックカードなど）を確認しておくと安心です。画面の表示や手順は変わることがあります。最新の案内は公式サイトで確認してください。</p><p class="lk"><a href="https://www.blackmagicdesign.com/products/davinciresolve" target="_blank" rel="noopener noreferrer">DaVinci Resolve 公式ページ ↗</a></p></div><h2>対応プラグイン</h2><div class="card"><h3>主な対応プラグイン</h3><p>Boris FX Sapphire、Boris FX Continuum、Red Giant Universeなど</p><details class="plg"><summary>一覧表示（全25件）</summary><ul class="pll"><li class="cat">エフェクト・VFX</li><li><a href="https://borisfx.com/products/sapphire/" target="_blank" rel="noopener noreferrer">Boris FX Sapphire ↗</a><span>レンズフレア、グロー、トランジションなどのVFXスイート（OFX）</span></li><li><a href="https://borisfx.com/products/continuum/" target="_blank" rel="noopener noreferrer">Boris FX Continuum ↗</a><span>300以上のエフェクト、40のトランジション、5,000以上のプリセット（OFX）</span></li><li><a href="https://www.toolfarm.com/buy/red_giant_annual_subscription/" target="_blank" rel="noopener noreferrer">Red Giant Universe ↗</a><span>エフェクトとトランジションのライブラリ（OFX）。Red Giantのサブスクに含まれます</span></li><li><a href="https://www.newbluefx.com/" target="_blank" rel="noopener noreferrer">NewBlue TotalFX ↗</a><span>タイトル・エフェクトのスイート（OFX）</span></li><li><a href="https://hitfilm.com/ignite-pro" target="_blank" rel="noopener noreferrer">HitFilm Ignite ↗</a><span>エフェクト集（OFX）</span></li><li><a href="http://www.digitalfilmtools.com/dft/" target="_blank" rel="noopener noreferrer">Digital Film Tools ↗</a><span>Composite Suite Pro、Film Stocks、Rays、reFine、zMatte、Tiffen DFXなど（OFX）</span></li><li><a href="https://www.motionvfx.com/" target="_blank" rel="noopener noreferrer">MotionVFX ↗</a><span>テキスト・トランジションなどのテンプレート系。Appleの傘下に入ったため今後は要確認</span></li><li><a href="https://www.freevisuals.net/post/davinci-resolve-plugins" target="_blank" rel="noopener noreferrer">Twixtor ↗</a><span>スローモーション・フレーム補間</span></li><li><a href="https://github.com/Greenysmac/awesome-davinci-resolve" target="_blank" rel="noopener noreferrer">NTSC-RS ↗</a><span>VHS風エフェクト（OFX）</span></li><li class="cat">カラー・フィルム</li><li><a href="https://www.filmconvert.com/" target="_blank" rel="noopener noreferrer">FilmConvert Nitrate ↗</a><span>フィルムルックとグレイン。約$119（定価$149）の買い切りと紹介されています</span></li><li><a href="https://www.dehancer.com/" target="_blank" rel="noopener noreferrer">Dehancer Pro ↗</a><span>フィルムエミュレーションとグレイン（無料枠ありとの紹介も）</span></li><li><a href="https://github.com/Greenysmac/awesome-davinci-resolve" target="_blank" rel="noopener noreferrer">Genesis ↗</a><span>フィルムエミュレーションツール</span></li><li><a href="https://www.freevisuals.net/post/davinci-resolve-plugins" target="_blank" rel="noopener noreferrer">spektrafilm OFX ↗</a><span>物理ベースのフィルムルック。無料</span></li><li class="cat">ノイズ除去・補正</li><li><a href="https://www.neatvideo.com/" target="_blank" rel="noopener noreferrer">Neat Video ↗</a><span>ノイズ除去の定番。無料版Resolveでも使えます</span></li><li><a href="https://www.digitalanarchy.com/" target="_blank" rel="noopener noreferrer">Beauty Box（Digital Anarchy） ↗</a><span>肌のレタッチ</span></li><li><a href="https://github.com/Greenysmac/awesome-davinci-resolve" target="_blank" rel="noopener noreferrer">gyroflow-plugins ↗</a><span>ジャイロデータを使った手ブレ補正。無料</span></li><li class="cat">トラッキング</li><li><a href="https://anyplugins.com/davinci-resolve" target="_blank" rel="noopener noreferrer">Boris FX Mocha Pro／SynthEyes／Silhouette ↗</a><span>トラッキング、ロトスコープ、マッチムーブ（Boris FX Suiteに含まれる）</span></li><li class="cat">無料・コミュニティ</li><li><a href="https://github.com/baldavenger" target="_blank" rel="noopener noreferrer">BaldavengerPlugins（OFX Utilities） ↗</a><span>画像処理・カラーグレーディングのOFX。無料</span></li><li><a href="https://github.com/Greenysmac/awesome-davinci-resolve" target="_blank" rel="noopener noreferrer">QR-coder ↗</a><span>QRコードをResolve内で生成。無料</span></li><li><a href="https://github.com/Greenysmac/awesome-davinci-resolve" target="_blank" rel="noopener noreferrer">ResolveOFX_NDIOutput ↗</a><span>NDIでHDR映像をネットワーク出力。無料（Linux向け）</span></li><li class="cat">テンプレート・その他</li><li><a href="https://www.freevisuals.net/post/davinci-resolve-plugins" target="_blank" rel="noopener noreferrer">AEJuice／Reactor／Magic Animate ↗</a><span>モーション素材・コミュニティ製ツールなど（人気として紹介）</span></li><li><a href="https://www.freevisuals.net/post/davinci-resolve-plugins" target="_blank" rel="noopener noreferrer">VSTプラグイン ↗</a><span>DAWの音声プラグインをResolveで利用</span></li><li class="cat">一覧サイト（全件はここから）</li><li><a href="https://github.com/Greenysmac/awesome-davinci-resolve" target="_blank" rel="noopener noreferrer">Awesome DaVinci Resolve（GitHub） ↗</a><span>コミュニティが集めた、プラグインやツールの一覧</span></li><li><a href="https://www.toolfarm.com/products/host/blackmagic_davinci_resolve_plug_ins/" target="_blank" rel="noopener noreferrer">Toolfarm：Resolve向けプラグイン ↗</a><span>Resolve対応プラグインの販売一覧</span></li><li><a href="https://anyplugins.com/davinci-resolve" target="_blank" rel="noopener noreferrer">anyplugins：Resolve向けプラグイン ↗</a><span>217件のツール・プリセットを掲載</span></li></ul><p class="date">リンクは公式・販売・紹介ページです。価格や対応状況は、リンク先で確認してください。</p></details><p class="date">プラグインは非常に数が多く、ここにまとめたのは調査で確認できた主なものです。全件は「一覧サイト」の項目から探せます。</p></div></main>
+<nav class="pages"><h2>ページ一覧</h2><ul><li><a href="../">動画編集ソフトの最新ニュース・価格・セールまとめ</a></li><li><a href="../news/">動画編集の最新ニュース</a></li><li><a href="../videos/">動画編集のおすすめ解説動画（YouTube）</a></li><li><a href="../premiere/">Adobe Premiere の最新情報・価格・セール</a></li><li><a href="../plugins/">動画編集プラグインの最新情報・価格</a></li><li><a href="../sale/">動画編集ソフト・プラグインのセール情報</a></li><li><a href="../materials/">動画編集に使える無料・有料の素材サイト</a></li><li><a href="../davinci-resolve/">DaVinci Resolve の最新情報・価格・プラグイン</a></li><li><a href="../capcut/">CapCut の最新情報・料金</a></li><li><a href="../filmora/">Filmora の最新情報・価格・セール</a></li><li><a href="../final-cut-pro/">Final Cut Pro の最新情報・価格・プラグイン</a></li><li><a href="../aviutl/">AviUtl2（AviUtl ExEdit2）の最新版・プラグイン</a></li><li><a href="../others/">その他の動画編集ソフトの最新情報・価格</a></li></ul></nav>
+<footer>調査時点の情報をまとめた簡易版です。海外記事・動画は、内容を日本語で要約・翻訳しています（原文は各リンク先）。動画は未視聴で、タイトルや概要をもとに紹介しています。</footer>
+</div>
+</body>
+</html>

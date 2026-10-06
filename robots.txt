@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wataru-takano.github.io/douga-topic/sitemap.xml
