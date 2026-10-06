@@ -82,8 +82,40 @@ def norm_url(u):
     return re.sub(r"[?#].*$", "", u.strip()).rstrip("/")
 
 
-def matches(item, kw_re):
-    return bool(kw_re.search((item.get("title", "") + " " + item.get("desc", ""))))
+def build_kw_re(words):
+    """英語のキーワードは単語単位で一致させる（"nle" が "Stanley" に当たる、などを防ぐ）。"""
+    parts = []
+    for k in words:
+        if re.fullmatch(r"[A-Za-z0-9 .+\-]+", k):
+            parts.append(r"(?<![A-Za-z0-9])" + re.escape(k) + r"(?![A-Za-z0-9])")
+        else:
+            parts.append(re.escape(k))
+    return re.compile("|".join(parts), re.I)
+
+
+def matches(item, kw_re, ex_re):
+    """題名にキーワードがあり、除外語がないものだけを採用する（本文の抜粋は誤判定が多いので見ない）。"""
+    title = item.get("title", "")
+    if ex_re and ex_re.search(title):
+        return False
+    return bool(kw_re.search(title))
+
+
+VER_RE = re.compile(r"\d+\.\d+(?:\.\d+)?")
+
+
+def dup_of_manual(title, manual_titles):
+    """手で書いたニュースと同じ話題（同じソフト名＋同じバージョン番号）なら重複とみなす。"""
+    vers = set(VER_RE.findall(title))
+    if not vers:
+        return False
+    low = title.lower()
+    for mt in manual_titles:
+        if vers & set(VER_RE.findall(mt)):
+            for name in ("resolve", "premiere", "final cut", "filmora", "capcut", "aviutl", "after effects"):
+                if name in low and name in mt.lower():
+                    return True
+    return False
 
 
 def ai_japanese(new_items):
@@ -125,7 +157,9 @@ def ai_japanese(new_items):
 
 def main():
     cfg = json.load(open(FEEDS_PATH, encoding="utf-8"))
-    kw_re = re.compile("|".join(re.escape(k) for k in cfg["keywords"]), re.I)
+    kw_re = build_kw_re(cfg["keywords"])
+    ex = cfg.get("exclude", [])
+    ex_re = build_kw_re(ex) if ex else None
     now = datetime.now(JST)
     since = now - timedelta(days=cfg.get("recent_days", 14))
 
@@ -133,6 +167,14 @@ def main():
     items = news.get("items", [])
     known = {norm_url(l[1]) for x in items for l in (x.get("links") or [])}
     known |= {norm_url(x["url"]) for x in items if x.get("url")}
+    manual_titles = [x.get("title", "") for x in items if not x.get("auto")]
+
+    # 以前に自動で入った記事も、今の条件で見直す（関係ない記事・手書きと重複する記事を外す）
+    before = len(items)
+    items = [x for x in items if not x.get("auto")
+             or (matches(x, kw_re, ex_re) and not dup_of_manual(x.get("title", ""), manual_titles))]
+    if len(items) != before:
+        log("条件に合わない自動追加分を削除:", before - len(items), "件")
 
     found, ok_feeds = [], 0
     for f in cfg["feeds"]:
@@ -145,7 +187,9 @@ def main():
         hit = 0
         for e in entries:
             d = e.get("date")
-            if not d or d < since or not matches(e, kw_re):
+            if not d or d < since or not matches(e, kw_re, ex_re):
+                continue
+            if dup_of_manual(e["title"], manual_titles):
                 continue
             if norm_url(e["link"]) in known:
                 continue
