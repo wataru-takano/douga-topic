@@ -1,0 +1,21 @@
+{
+  "_comment": "update_site.py の設定。tabs は更新するタブ（ニュースは update_news.py が担当）。focus はタブごとに重点的に調べること。model は環境変数 ANTHROPIC_MODEL があればそちらが優先。",
+  "model": "claude-sonnet-5-5",
+  "max_searches_per_tab": 8,
+  "max_tokens": 32000,
+  "tabs": ["総合", "セール", "Premiere", "DaVinci Resolve", "CapCut", "Filmora", "Final Cut Pro", "AviUtl", "その他", "プラグイン", "動画", "素材サイト"],
+  "focus": {
+    "総合": "価格表（table）の各ソフトの最新価格と、注目トレンド。価格は公式サイトで確認する。",
+    "セール": "ソフト本体とプラグイン（Boris FX、Maxon／Red Giant、MotionVFX、Toolfarm など）の、今実施中のセールと終了日。終わったセールは「過去のセール例」へ移すか、出典つきで削除。",
+    "Premiere": "最新バージョン・アップデート、ベータ機能、Adobe MAX の発表、価格・セール。",
+    "DaVinci Resolve": "最新バージョン（Blackmagic Design 公式の更新情報）、価格・セール。",
+    "CapCut": "最新のアップデート、新機能、Pro の価格。",
+    "Filmora": "最新バージョン（公式のバージョン履歴）、公式購入ページの価格・セール。",
+    "Final Cut Pro": "Apple 公式リリースノートの最新バージョン、Creator Studio を含む価格。",
+    "AviUtl": "公式サイト「AviUtlのお部屋」と更新履歴（docs.aviutl2.jp/changelog）の最新バージョン、重要な新プラグイン。",
+    "その他": "Vegas Pro、PowerDirector、GOM Mix、Premiere Elements など、その他の編集ソフトの最新版と価格。",
+    "プラグイン": "主要プラグインの最新バージョン（Red Giant、Boris FX など）と価格。新しい重要なものだけ一覧に追記。",
+    "動画": "直近1〜2週間に公開された、各ソフトの新機能・アップデート解説のYouTube動画。URLは検索結果で確認できた youtube.com/watch?v= のものだけ。既存の動画は残し、新しいものを先頭に追加。",
+    "素材サイト": "掲載中の素材サイトの規約や提供状況に大きな変更があった場合だけ反映。変更がなければそのまま。"
+  }
+}
