@@ -44,8 +44,23 @@ EXTRA_CSS = (".tabs a{flex:none;border:1px solid var(--line);background:#03060a;
              "border-radius:4px;font-size:.9rem;text-decoration:none}.tabs a:hover{color:var(--text);border-color:var(--acc)}"
              ".tabs a[aria-current=\"page\"]{background:var(--acc);border-color:var(--acc);color:#001015;font-weight:700;"
              "box-shadow:0 0 16px rgba(39,224,255,.55)}"
-             "nav.pages{margin-top:28px;font-size:.85rem}nav.pages h2{font-size:.95rem}nav.pages ul{display:flex;flex-wrap:wrap;"
-             "gap:6px 14px;list-style:none;padding:0;margin:0}nav.pages a{color:var(--acc);text-decoration:none}"
+             ".tabs{padding-right:56px}h1,.wrap>.upd:first-child{padding-right:52px}"
+             # 右上の「☰」メニュー（JavaScriptなしで開閉できる）
+             "details.menu{position:fixed;top:calc(env(safe-area-inset-top,0px) + 12px);right:12px;z-index:20}"
+             "details.menu summary{list-style:none;cursor:pointer;width:42px;height:42px;display:flex;align-items:center;"
+             "justify-content:center;font-size:1.35rem;line-height:1;color:var(--acc);background:rgba(3,6,10,.92);"
+             "border:1px solid var(--acc);border-radius:6px;box-shadow:0 0 12px rgba(39,224,255,.35);user-select:none}"
+             "details.menu summary::-webkit-details-marker{display:none}"
+             "details.menu summary:hover,details.menu[open] summary{background:var(--acc);color:#001015}"
+             "details.menu[open] summary .i::before{content:\"✕\"}details.menu summary .i::before{content:\"☰\"}"
+             "details.menu nav{position:absolute;right:0;top:50px;width:min(320px,calc(100vw - 24px));max-height:calc(100vh - 90px);"
+             "overflow:auto;background:var(--card);border:1px solid var(--acc);border-radius:6px;padding:8px 0;"
+             "box-shadow:0 0 24px rgba(39,224,255,.3)}"
+             "details.menu nav p{margin:4px 14px 6px;color:var(--acc);font-family:var(--mono);font-size:.8rem}"
+             "details.menu ul{list-style:none;margin:0;padding:0}"
+             "details.menu li a{display:block;padding:10px 14px;color:var(--text);text-decoration:none;font-size:.9rem;"
+             "border-top:1px solid var(--line)}details.menu li a:hover{background:rgba(39,224,255,.1);color:var(--acc)}"
+             "details.menu li a[aria-current=\"page\"]{color:var(--acc);font-weight:700}"
              ".pr{color:var(--sub);font-size:.8rem;margin:8px 0 0}")
 
 
@@ -159,9 +174,13 @@ def nav_tabs(names, current, depth):
         f'<a href="{rel_of(n, depth)}"{" aria-current=\"page\"" if n == current else ""}>{n}</a>' for n in names) + "</nav>")
 
 
-def page_list(names, depth):
-    return ('<nav class="pages"><h2>ページ一覧</h2><ul>' + "".join(
-        f'<li><a href="{rel_of(n, depth)}">{TITLES[n]}</a></li>' for n in names) + "</ul></nav>")
+def page_list(names, depth, current=None):
+    """右上の「☰」を押すと開くページ一覧（JavaScriptなしで動く）。"""
+    items = "".join(
+        f'<li><a href="{rel_of(n, depth) or "./"}"{" aria-current=\"page\"" if n == current else ""}>{TITLES[n]}</a></li>'
+        for n in names)
+    return ('<details class="menu"><summary aria-label="ページ一覧を開く"><span class="i" aria-hidden="true"></span></summary>'
+            f'<nav aria-label="ページ一覧"><p>MENU ／ ページ一覧</p><ul>{items}</ul></nav></details>')
 
 
 def replace_block(src, tag, content, fallback_anchor, before=True, css=False):
@@ -221,7 +240,7 @@ def main():
 {pr}
 {nav_tabs(names, name, 1)}
 <main id="panel">{panel(tab, 1)}</main>
-{page_list(names, 1)}
+{page_list(names, 1, name)}
 {footer}
 </div>
 </body>
@@ -237,7 +256,7 @@ def main():
     src = replace_block(src, "SEOCSS", EXTRA_CSS, "</style>", css=True)
     # 本文の下書き（JavaScriptが動けば、いつも通りの表示に置き換わる）
     src = replace_block(src, "PRE", panel(D["総合"], 0), '<div id="panel">', before=False)
-    src = replace_block(src, "PAGES", page_list(names, 0), "<footer>")
+    src = replace_block(src, "PAGES", page_list(names, 0, "総合"), "<footer>")
     open(INDEX, "w", encoding="utf-8").write(src)
 
     # ---- sitemap.xml / robots.txt ----
