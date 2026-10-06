@@ -1,0 +1,56 @@
+name: 検索エンジン向けページの作成
+
+# index.html やニュースを手で更新したとき（push したとき）に、
+# タブごとのページ・sitemap.xml・robots.txt を作り直す。
+on:
+  push:
+    branches: [main]
+    paths:
+      - "index.html"
+      - "data/news.json"
+      - "scripts/build_pages.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: build-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: ページを作る
+        run: python scripts/build_pages.py
+
+      - name: 変更があればコミットして push
+        id: commit
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "変更なし"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "検索エンジン向けページを更新"
+          git pull --rebase
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: GitHub Pages の再公開を依頼
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds" || echo "再公開の依頼に失敗（push による自動反映を待ちます）"
