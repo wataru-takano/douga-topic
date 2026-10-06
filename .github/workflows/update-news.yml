@@ -1,0 +1,51 @@
+name: ニュース自動更新
+
+on:
+  schedule:
+    - cron: "0 21 * * *"   # 毎日 日本時間 6:00（UTC 21:00）
+  workflow_dispatch:        # Actions タブから手動でも実行できる
+
+permissions:
+  contents: write   # data/news.json をコミットするため
+  pages: write      # 更新後に GitHub Pages の再公開を依頼するため
+
+concurrency:
+  group: update-news
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: ニュースを取得して data/news.json を更新
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/update_news.py
+
+      - name: 変更があればコミットして push
+        id: commit
+        run: |
+          if git diff --quiet -- data/news.json; then
+            echo "変更なし"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/news.json
+          git commit -m "ニュース自動更新 $(TZ=Asia/Tokyo date +%F)"
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: GitHub Pages の再公開を依頼
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds" || echo "再公開の依頼に失敗（push による自動反映を待ちます）"
