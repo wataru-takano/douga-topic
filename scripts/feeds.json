@@ -1,23 +1,108 @@
 {
-  "_comment": "取得するRSSフィード。url が開けない場合は、ログに失敗と出てスキップされます。r は国内/海外、tz は日付にタイムゾーンが無いときの扱い。",
+  "_comment": "取得するRSSフィード。url が開けない場合は、ログに失敗と出てスキップされます。r は国内/海外、tz は日付にタイムゾーンが無いときの扱い。keywords は記事の題名に含まれるものだけを採用し（英語は単語単位）、exclude を含む題名は除外します。",
   "recent_days": 14,
   "max_new_per_run": 15,
   "keywords": [
-    "premiere", "after effects", "davinci", "resolve", "final cut", "capcut", "filmora", "aviutl",
-    "video editing", "video editor", "nle", "blackmagic", "boris fx", "red giant", "maxon", "motionvfx",
-    "adobe max", "frame.io", "プラグイン", "動画編集", "ビデオ編集", "編集ソフト", "プレミア", "ダビンチ",
-    "ファイナルカット", "キャップカット", "フィモーラ", "after effects", "アフターエフェクト"
+    "premiere pro",
+    "adobe premiere",
+    "premiere",
+    "after effects",
+    "davinci resolve",
+    "davinci",
+    "final cut pro",
+    "final cut camera",
+    "capcut",
+    "filmora",
+    "aviutl",
+    "video editing",
+    "video editor",
+    "video editors",
+    "blackmagic",
+    "boris fx",
+    "red giant",
+    "maxon",
+    "motionvfx",
+    "adobe max",
+    "frame.io",
+    "動画編集",
+    "ビデオ編集",
+    "編集ソフト",
+    "プレミアプロ",
+    "ダビンチ",
+    "ファイナルカット",
+    "キャップカット",
+    "フィモーラ",
+    "アフターエフェクト"
+  ],
+  "exclude": [
+    "premiere date",
+    "world premiere",
+    "premieres",
+    "series premiere",
+    "season premiere",
+    "red carpet",
+    "box office"
   ],
   "feeds": [
-    {"name": "Newsshooter", "url": "https://www.newsshooter.com/feed/", "r": "海外", "tz": "UTC"},
-    {"name": "CineD", "url": "https://www.cined.com/feed/", "r": "海外", "tz": "UTC"},
-    {"name": "PetaPixel", "url": "https://petapixel.com/feed/", "r": "海外", "tz": "UTC"},
-    {"name": "ProVideo Coalition", "url": "https://www.provideocoalition.com/feed/", "r": "海外", "tz": "UTC"},
-    {"name": "RedShark News", "url": "https://www.redsharknews.com/rss.xml", "r": "海外", "tz": "UTC"},
-    {"name": "No Film School", "url": "https://nofilmschool.com/rss.xml", "r": "海外", "tz": "UTC"},
-    {"name": "デジカメ Watch", "url": "https://dc.watch.impress.co.jp/data/rss/1.0/dcw/feed.rdf", "r": "国内", "tz": "JST"},
-    {"name": "窓の杜", "url": "https://forest.watch.impress.co.jp/data/rss/1.0/wf/feed.rdf", "r": "国内", "tz": "JST"},
-    {"name": "gori.me", "url": "https://gori.me/feed", "r": "国内", "tz": "JST"},
-    {"name": "APPBANK", "url": "https://www.appbank.net/feed", "r": "国内", "tz": "JST"}
+    {
+      "name": "Newsshooter",
+      "url": "https://www.newsshooter.com/feed/",
+      "r": "海外",
+      "tz": "UTC"
+    },
+    {
+      "name": "CineD",
+      "url": "https://www.cined.com/feed/",
+      "r": "海外",
+      "tz": "UTC"
+    },
+    {
+      "name": "PetaPixel",
+      "url": "https://petapixel.com/feed/",
+      "r": "海外",
+      "tz": "UTC"
+    },
+    {
+      "name": "ProVideo Coalition",
+      "url": "https://www.provideocoalition.com/feed/",
+      "r": "海外",
+      "tz": "UTC"
+    },
+    {
+      "name": "RedShark News",
+      "url": "https://www.redsharknews.com/rss.xml",
+      "r": "海外",
+      "tz": "UTC"
+    },
+    {
+      "name": "No Film School",
+      "url": "https://nofilmschool.com/rss.xml",
+      "r": "海外",
+      "tz": "UTC"
+    },
+    {
+      "name": "デジカメ Watch",
+      "url": "https://dc.watch.impress.co.jp/data/rss/1.0/dcw/feed.rdf",
+      "r": "国内",
+      "tz": "JST"
+    },
+    {
+      "name": "窓の杜",
+      "url": "https://forest.watch.impress.co.jp/data/rss/1.0/wf/feed.rdf",
+      "r": "国内",
+      "tz": "JST"
+    },
+    {
+      "name": "gori.me",
+      "url": "https://gori.me/feed",
+      "r": "国内",
+      "tz": "JST"
+    },
+    {
+      "name": "APPBANK",
+      "url": "https://www.appbank.net/feed",
+      "r": "国内",
+      "tz": "JST"
+    }
   ]
 }
