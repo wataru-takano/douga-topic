@@ -96,21 +96,6 @@
    "auto": false
   },
   {
-   "date": "2026-10-02",
-   "tag": "10月2日",
-   "r": "国内",
-   "title": "DaVinci Resolve 21.1.1：トリム編集の改善など",
-   "summary": "トリムエディタの操作改善、音声のみのクリップ編集、Canon EOS R8 Mark IIのCR3 RAW対応、OGrafやマルチカム編集の改善が入りました。Studio版では、非同期APIやMagic Maskなどの不具合も修正されています。",
-   "note": "出典：framewld（国内）",
-   "links": [
-    [
-     "framewld",
-     "https://www.framewld.com/davinci-resolve2111/"
-    ]
-   ],
-   "auto": false
-  },
-  {
    "date": "2026-10-01",
    "tag": "10月1日",
    "r": "海外",
@@ -145,7 +130,7 @@
    "tag": "10月1日",
    "r": "海外",
    "title": "DaVinci Resolve 21.1.1 が公開",
-   "summary": "21.1の後を受けた小規模アップデート。トリムエディタが音声のみのクリップや複数の編集点に対応し、マウスでトリムする際に音声もプレビューできるようになりました。Windows 11でのUSAC音声デコード、複数のFusionエフェクトを個別に調整する機能、複数人作業時の接続安定性の改善も入っています。",
+   "summary": "21.1の後を受けた小規模アップデート。トリムエディタが音声のみのクリップや複数の編集点に対応し、マウスでトリムする際に音声もプレビューできるようになりました。Windows 11でのUSAC音声デコード、複数のFusionエフェクトを個別に調整する機能、複数人作業時の接続安定性の改善のほか、Canon EOS R8 Mark IIのCR3 RAW対応、OGrafやマルチカム編集の改善も入っています。Studio版では、非同期APIやMagic Maskなどの不具合も修正されています。",
    "note": "出典：Newsshooter／RedShark News／4K Shooters（英語）、framewld（日本語）",
    "links": [
     [
