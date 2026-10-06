@@ -1,0 +1,62 @@
+name: サイト情報の自動更新（確認してから公開）
+
+on:
+  schedule:
+    - cron: "0 20 * * 0"   # 毎週月曜 日本時間 5:00（UTC 日曜 20:00）
+  workflow_dispatch:
+    inputs:
+      tabs:
+        description: "更新するタブ（空欄なら全部。例：セール 総合）"
+        required: false
+        default: ""
+
+permissions:
+  contents: write        # 更新案のブランチを作るため
+  pull-requests: write   # 更新案（プルリクエスト）を作るため
+
+concurrency:
+  group: update-site
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Claude（Web検索つき）で各タブを更新
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
+          TABS: ${{ github.event.inputs.tabs }}
+        run: python scripts/update_site.py $TABS
+
+      - name: 更新案（プルリクエスト）を作る
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- index.html; then
+            echo "変更なし。更新案は作りません。"
+            exit 0
+          fi
+          DATE=$(TZ=Asia/Tokyo date +%Y%m%d-%H%M)
+          BRANCH="auto/site-update-$DATE"
+          # まだ Merge されていない古い更新案は閉じる（新しい方に置き換え）
+          for n in $(gh pr list --state open --json number,headRefName --jq '.[] | select(.headRefName | startswith("auto/site-update-")) | .number'); do
+            gh pr close "$n" --delete-branch --comment "新しい更新案に置き換えたため閉じました。"
+          done
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add index.html
+          git commit -m "サイト情報の自動更新 $DATE"
+          git push origin "$BRANCH"
+          gh pr create --base main --head "$BRANCH" \
+            --title "サイト情報の更新案 $(TZ=Asia/Tokyo date +%Y-%m-%d)" \
+            --body-file update_report.md
