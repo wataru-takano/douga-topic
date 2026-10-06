@@ -52,15 +52,6 @@
   },
   {
    "date": "2026-10-06",
-   "r": "海外",
-   "title": "Blackmagic Cloud Store is Adding Support for Mac OS Golden Gate to All Models",
-   "summary": "",
-   "source": "No Film School",
-   "url": "https://nofilmschool.com/blackmagic-cloud-store-update-2-1-1",
-   "auto": true
-  },
-  {
-   "date": "2026-10-06",
    "tag": "10月6日発売",
    "r": "国内",
    "title": "AI動画の専門誌「AI動画最前線」が発売",
@@ -85,12 +76,22 @@
   },
   {
    "date": "2026-10-05",
+   "tag": "10月5日",
    "r": "海外",
-   "title": "DeckBridge: Stream Deck plugin for DaVinci Resolve",
-   "summary": "",
-   "source": "RedShark News",
-   "url": "https://www.redsharknews.com/deckbridge-stream-deck-plugin-davinci-resolve",
-   "auto": true
+   "title": "DeckBridge：Stream DeckでDaVinci Resolveを操作するプラグイン",
+   "summary": "Elgato Stream Deck用のプラグインで、Resolveの491のコマンドをキーに割り当てられます。再生状態の表示や、開いているページに合わせたキーの切り替えに対応。Resolve 19〜21、macOSとWindows 11で使え、価格は£54.99です。",
+   "note": "出典：RedShark News（英語）",
+   "links": [
+    [
+     "RedShark（英語）",
+     "https://www.redsharknews.com/deckbridge-stream-deck-plugin-davinci-resolve"
+    ],
+    [
+     "DeckBridge 公式（英語）",
+     "https://deckbridge.io/"
+    ]
+   ],
+   "auto": false
   },
   {
    "date": "2026-10-05",
@@ -103,6 +104,25 @@
     [
      "CyberLink 料金ページ",
      "https://jp.cyberlink.com/products/powerdirector-video-editing-software/pricing_ja_JP.html"
+    ]
+   ],
+   "auto": false
+  },
+  {
+   "date": "2026-10-04",
+   "tag": "10月4日",
+   "r": "海外",
+   "title": "Blackmagic Cloud Store 2.1.1：macOS 27 Golden Gate に対応",
+   "summary": "Blackmagic Designのネットワークストレージ「Cloud Store」の更新ソフト2.1.1が公開されました。次期macOS 27 Golden Gateへの対応と、全モデルの性能・安定性の改善が入っています。Resolveの共同作業でCloud Storeを使っている人向けの更新です。",
+   "note": "出典：Newsshooter、No Film School（英語）",
+   "links": [
+    [
+     "Newsshooter（英語）",
+     "https://www.newsshooter.com/2026/10/04/blackmagic-cloud-store-2-1-1/"
+    ],
+    [
+     "No Film School（英語）",
+     "https://nofilmschool.com/blackmagic-cloud-store-update-2-1-1"
     ]
    ],
    "auto": false
