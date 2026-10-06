@@ -6,7 +6,7 @@ on:
   workflow_dispatch:        # Actions タブから手動でも実行できる
 
 permissions:
-  contents: write   # data/news.json をコミットするため
+  contents: write   # data/news.json などをコミットするため
   pages: write      # 更新後に GitHub Pages の再公開を依頼するため
 
 concurrency:
@@ -29,17 +29,20 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/update_news.py
 
+      - name: 検索エンジン向けのページを作り直す
+        run: python scripts/build_pages.py
+
       - name: 変更があればコミットして push
         id: commit
         run: |
-          if git diff --quiet -- data/news.json; then
+          if [ -z "$(git status --porcelain)" ]; then
             echo "変更なし"
             echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/news.json
+          git add -A
           git commit -m "ニュース自動更新 $(TZ=Asia/Tokyo date +%F)"
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"
