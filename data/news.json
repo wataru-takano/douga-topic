@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06",
+ "updated": "2026-10-07",
  "items": [
   {
    "date": "2026-11-15",
@@ -49,6 +49,15 @@
     ]
    ],
    "auto": false
+  },
+  {
+   "date": "2026-10-07",
+   "r": "海外",
+   "title": "Tool Tip Tuesday for Adobe Premiere: Prevent Auto Adding Tracks when Editing",
+   "summary": "",
+   "source": "ProVideo Coalition",
+   "url": "https://www.provideocoalition.com/tool-tip-tuesday-for-adobe-premiere-prevent-auto-adding-tracks-when-editing/",
+   "auto": true
   },
   {
    "date": "2026-10-06",
