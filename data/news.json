@@ -41,7 +41,7 @@
    "r": "海外",
    "title": "モーショングラフィックスはAIで急速に低価格化？（ブログの見方）",
    "summary": "海外の起業家向けブログが、コードで動きを作るAI（Opus 5.5）によって、広告や説明動画のモーション制作の一部が速く安くなっていると主張しています。",
-   "note": "個人ブログの見解であり、評価は分かれる可能性があります。出典：Mean CEO（英語）",
+   "note": "要確認（公式サイトでは未確認の情報です）。 個人ブログの見解であり、評価は分かれる可能性があります。出典：Mean CEO（英語）",
    "links": [
     [
      "Mean CEO（英語）",
@@ -196,7 +196,7 @@
    "r": "海外",
    "title": "DaVinci Resolve 21.1.1 が公開",
    "summary": "21.1の後を受けた小規模アップデート。トリムエディタが音声のみのクリップや複数の編集点に対応し、マウスでトリムする際に音声もプレビューできるようになりました。Windows 11でのUSAC音声デコード、複数のFusionエフェクトを個別に調整する機能、複数人作業時の接続安定性の改善のほか、Canon EOS R8 Mark IIのCR3 RAW対応、OGrafやマルチカム編集の改善も入っています。Studio版では、非同期APIやMagic Maskなどの不具合も修正されています。",
-   "note": "出典：Newsshooter／RedShark News／4K Shooters（英語）、framewld（日本語）",
+   "note": "出典：Newsshooter／RedShark News／4K Shooters（英語）",
    "links": [
     [
      "Newsshooter",
@@ -205,10 +205,6 @@
     [
      "RedShark（英語）",
      "https://www.redsharknews.com/davinci-resolve-21-1-1-whats-new"
-    ],
-    [
-     "日本語記事",
-     "https://www.framewld.com/davinci-resolve2111/"
     ],
     [
      "4K Shooters（英語）",
@@ -308,15 +304,11 @@
    "r": "海外",
    "title": "Filmora 16 が登場",
    "summary": "Filmoraの新バージョン16.0が公開されました。被写体を追いかけるカメラトラッキング、選んだ色の範囲だけを補正するカラーマスク、360°動画を通常の画角にする機能、クリップをAIで分類する機能、画面・カメラ・音声の同時録画などが入っています。用途に合わせて縦横比や言語を変えた複数バージョンを一度に書き出す機能も紹介されています。",
-   "note": "公開日は海外の紹介記事による。出典：Filmora公式 バージョン履歴（日本語）、Elearning Supporter（英語）",
+   "note": "要確認（一部に公式サイトで未確認の情報を含みます）。 公開日は海外の紹介記事による。出典：Filmora公式 バージョン履歴（日本語）、Elearning Supporter（英語）",
    "links": [
     [
      "Filmora バージョン履歴",
      "https://filmora.wondershare.jp/whats-new-in-filmora-video-editor.html"
-    ],
-    [
-     "Elearning Supporter（英語）",
-     "https://elearningsupporter.com/2026/09/23/wondershare-filmora-16-whats-new/"
     ]
    ],
    "auto": false
@@ -436,7 +428,7 @@
    "r": "国内",
    "title": "Apple Creator Studioが大型アップデート：Final Cut Proに自動字幕",
    "summary": "Final Cut Proに、音声を自動で文字起こしして字幕を置く機能と、編集点の自動検出が追加され、Pixelmator Proとの連携も入りました。料金は月1,780円または年17,800円で、新規は1か月無料。学生・教職員は月480円です。",
-   "note": "日本語への対応状況は、記事でも触れられています。使う前に確認してください。出典：gori.me（国内）",
+   "note": "要確認（公式サイトでは未確認の情報です）。 日本語への対応状況は、記事でも触れられています。使う前に確認してください。出典：gori.me（国内）",
    "links": [
     [
      "gori.me",
@@ -489,7 +481,7 @@
    "r": "海外",
    "title": "編集者の約6割がAI機能を利用（海外記事）",
    "summary": "海外メディアMemeburnは、2026年に編集者の58%がAI機能を使っていると紹介。文字起こしによるテキストベース編集、被写体のマスク、生成AIがどの主要ソフトにも広がっているとまとめています。",
-   "note": "集計元の信頼性は未確認の参考値です。出典：Memeburn（英語）",
+   "note": "要確認（公式サイトでは未確認の情報です）。 集計元の信頼性は未確認の参考値です。出典：Memeburn（英語）",
    "links": [
     [
      "Memeburn（英語）",
