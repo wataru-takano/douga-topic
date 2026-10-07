@@ -104,6 +104,19 @@ def walk_strings(x):
             yield from walk_strings(y)
 
 
+URL_ANY = re.compile(r"https?://[^\s\"'<>]+")
+AVOID = []   # main() で site_update.json の source_policy.avoid_domains を読み込む
+
+
+def host_of(u):
+    return re.sub(r"^www\.", "", re.sub(r"^https?://([^/:?#]+).*$", r"\1", u).lower())
+
+
+def is_avoided(u):
+    h = host_of(u)
+    return any(h == d or h.endswith("." + d) for d in AVOID)
+
+
 def cards_of(tab):
     return [c for s in tab.get("sections", []) for c in s[1]]
 
@@ -160,6 +173,13 @@ def validate(name, old, new, removed):
             errs.append("価格表の行が減っています")
         elif any(not isinstance(r, list) or len(r) != len(t["head"]) for r in t.get("rows", [])):
             errs.append("価格表の列の数が合いません")
+    # 出典は公式サイトなどから：新しく加わったリンクに、個人ブログ・クーポン・Q&Aサイトなどが無いか
+    old_urls = set(URL_ANY.findall(json.dumps(old, ensure_ascii=False)))
+    new_urls = set(URL_ANY.findall(json.dumps(new, ensure_ascii=False)))
+    new_urls |= {str(r.get("source", "")) for r in removed if isinstance(r, dict)}
+    bad = sorted(u for u in new_urls - old_urls if is_avoided(u))
+    if bad:
+        errs.append(f"公式以外（個人サイト等）の出典が追加されています: {bad[:3]}")
     if len(json.dumps(new, ensure_ascii=False)) < 0.7 * len(json.dumps(old, ensure_ascii=False)):
         errs.append("データ量が3割以上減っています")
     return errs
@@ -172,6 +192,10 @@ Web検索で最新情報を調べ、指定されたタブのデータ（JSON）�
 
 守ること：
 - 検索で確認できた情報だけを書く。確認できないものは「要確認」と書く。推測で事実を足さない。
+- 出典は、メーカー・開発元の公式サイト（製品ページ、価格ページ、リリースノート、公式ブログ、公式ニュースルーム）を最優先にする。
+  公式で確認できないときだけ、大手の報道・専門メディアを使う。
+  個人ブログ、まとめ・アフィリエイト記事、クーポンサイト、Q&Aサイト、SNS、wiki は出典にしない。
+  それらでしか確認できない情報は書かない（既存の内容を変えるだけの根拠にもしない）。
 - 新しく書いた情報・変えた情報には、出典のリンクをカードの "l"（[[表示名, URL], ...]）に必ず付ける。URLは検索結果で実際に見たものだけ。
 - 古い情報は、新しい情報で確認できた場合だけ差し替える。根拠なくカードを消さない。
   カードを消すときは、"removed" に {"t": カードのタイトル, "reason": 理由, "source": 根拠のURL} を書く。
@@ -198,6 +222,8 @@ def main():
     if not key:
         sys.exit("ANTHROPIC_API_KEY が設定されていません（Settings → Secrets and variables → Actions）。")
     cfg = json.load(open(CFG_PATH, encoding="utf-8"))
+    AVOID[:] = [d.lower() for d in cfg.get("source_policy", {}).get("avoid_domains", [])]
+    official = cfg.get("source_policy", {}).get("official_domains", [])
     model = os.environ.get("ANTHROPIC_MODEL") or cfg.get("model", "claude-sonnet-5-5")
     tabs = sys.argv[1:] or cfg["tabs"]
     today = datetime.now(JST)
@@ -214,6 +240,7 @@ def main():
         user = (f"今日は {today:%Y年%m月%d日}（日本時間）です。\n"
                 f"タブ「{name}」を最新の情報に更新してください。\n"
                 + (f"重点的に調べること：{focus}\n" if focus else "")
+                + (f"優先する公式サイトの例：{', '.join(official)}\n" if official else "")
                 + "\n現在のデータ：\n" + json.dumps(old, ensure_ascii=False))
         try:
             text = call_claude(key, model, SYSTEM, user, cfg.get("max_searches_per_tab", 8),
