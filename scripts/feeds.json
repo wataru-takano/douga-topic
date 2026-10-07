@@ -1,5 +1,5 @@
 {
-  "_comment": "取得するRSSフィード。url が開けない場合は、ログに失敗と出てスキップされます。r は国内/海外、tz は日付にタイムゾーンが無いときの扱い。keywords は記事の題名に含まれるものだけを採用し（英語は単語単位）、exclude を含む題名は除外します。",
+  "_comment": "取得するRSSフィード。url が開けない場合は、ログに失敗と出てスキップされます。r は国内/海外、tz は日付にタイムゾーンが無いときの扱い。keywords は記事の題名に含まれるものだけを採用し（英語は単語単位）、exclude を含む題名は除外します。 情報源は公式サイトと大手・専門メディアに限り、個人ブログは入れない。",
   "recent_days": 14,
   "max_new_per_run": 15,
   "keywords": [
@@ -45,6 +45,12 @@
   ],
   "feeds": [
     {
+      "name": "Apple Newsroom（公式）",
+      "url": "https://www.apple.com/newsroom/rss-feed.rss",
+      "r": "海外",
+      "tz": "UTC"
+    },
+    {
       "name": "Newsshooter",
       "url": "https://www.newsshooter.com/feed/",
       "r": "海外",
@@ -89,12 +95,6 @@
     {
       "name": "窓の杜",
       "url": "https://forest.watch.impress.co.jp/data/rss/1.0/wf/feed.rdf",
-      "r": "国内",
-      "tz": "JST"
-    },
-    {
-      "name": "gori.me",
-      "url": "https://gori.me/feed",
       "r": "国内",
       "tz": "JST"
     },
