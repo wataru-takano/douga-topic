@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07",
+ "updated": "2026-10-08",
  "items": [
   {
    "date": "2026-11-15",
@@ -49,6 +49,15 @@
     ]
    ],
    "auto": false
+  },
+  {
+   "date": "2026-10-08",
+   "r": "海外",
+   "title": "Someone Rebuilt Free, Open-Source Versions of Photoshop, Premiere, and Lightroom Using AI",
+   "summary": "",
+   "source": "PetaPixel",
+   "url": "https://petapixel.com/2026/10/07/someone-rebuilt-free-open-source-versions-of-photoshop-premiere-and-lightroom-using-ai/",
+   "auto": true
   },
   {
    "date": "2026-10-07",
