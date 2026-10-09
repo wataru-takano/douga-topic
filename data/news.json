@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08",
+ "updated": "2026-10-09",
  "items": [
   {
    "date": "2026-11-15",
@@ -49,6 +49,24 @@
     ]
    ],
    "auto": false
+  },
+  {
+   "date": "2026-10-09",
+   "r": "海外",
+   "title": "Blackmagic Camera for Android 3.5 Adds 10-bit Remote Previews and Android 17 Optimization",
+   "summary": "",
+   "source": "No Film School",
+   "url": "https://nofilmschool.com/blackmagic-camera-for-android-3-5",
+   "auto": true
+  },
+  {
+   "date": "2026-10-08",
+   "r": "海外",
+   "title": "Blackmagic Camera for Android 3.5",
+   "summary": "",
+   "source": "Newsshooter",
+   "url": "https://www.newsshooter.com/2026/10/07/blackmagic-camera-for-android-3-5/?utm_source=rss&utm_medium=rss&utm_campaign=blackmagic-camera-for-android-3-5",
+   "auto": true
   },
   {
    "date": "2026-10-08",
