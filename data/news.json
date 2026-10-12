@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11",
+ "updated": "2026-10-12",
  "items": [
   {
    "date": "2026-11-15",
@@ -49,6 +49,24 @@
     ]
    ],
    "auto": false
+  },
+  {
+   "date": "2026-10-11",
+   "r": "海外",
+   "title": "Blackmagic Design Asia Online Seminars",
+   "summary": "",
+   "source": "Newsshooter",
+   "url": "https://www.newsshooter.com/2026/10/10/blackmagic-design-asia-online-seminar/?utm_source=rss&utm_medium=rss&utm_campaign=blackmagic-design-asia-online-seminar",
+   "auto": true
+  },
+  {
+   "date": "2026-10-11",
+   "r": "海外",
+   "title": "Blackmagic Asia free online seminars: dates and times",
+   "summary": "",
+   "source": "RedShark News",
+   "url": "https://www.redsharknews.com/blackmagic-asia-online-seminars-schedule",
+   "auto": true
   },
   {
    "date": "2026-10-09",
