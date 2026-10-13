@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12",
+ "updated": "2026-10-13",
  "items": [
   {
    "date": "2026-11-15",
@@ -49,6 +49,15 @@
     ]
    ],
    "auto": false
+  },
+  {
+   "date": "2026-10-12",
+   "r": "海外",
+   "title": "ArtCraft Releases Free Open-Source Adobe Alternatives – FilmCraft for Premiere Pro, EffectCraft for After Effects, Written in Rust With AI",
+   "summary": "",
+   "source": "CineD",
+   "url": "https://www.cined.com/artcraft-releases-free-open-source-adobe-alternatives-filmcraft-for-premiere-pro-effectcraft-for-after-effects-written-in-rust-with-ai/",
+   "auto": true
   },
   {
    "date": "2026-10-11",
