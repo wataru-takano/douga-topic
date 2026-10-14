@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13",
+ "updated": "2026-10-14",
  "items": [
   {
    "date": "2026-11-15",
@@ -49,6 +49,33 @@
     ]
    ],
    "auto": false
+  },
+  {
+   "date": "2026-10-14",
+   "r": "海外",
+   "title": "Tool Tip Tuesday for Adobe Premiere: Grab the best Moments in the Transcript Panel with Paper Edit",
+   "summary": "",
+   "source": "ProVideo Coalition",
+   "url": "https://www.provideocoalition.com/tool-tip-tuesday-for-adobe-premiere-grab-the-best-moments-in-the-transcript-panel-with-paper-edit/",
+   "auto": true
+  },
+  {
+   "date": "2026-10-13",
+   "r": "海外",
+   "title": "Save $250 USD on the Blackmagic Design HyperDeck Shuttle HD",
+   "summary": "",
+   "source": "Newsshooter",
+   "url": "https://www.newsshooter.com/2026/10/12/save-250-usd-on-the-blackmagic-design-hyperdeck-shuttle-hd/?utm_source=rss&utm_medium=rss&utm_campaign=save-250-usd-on-the-blackmagic-design-hyperdeck-shuttle-hd",
+   "auto": true
+  },
+  {
+   "date": "2026-10-13",
+   "r": "海外",
+   "title": "macOS 27 Golden Gate for Video Editors – Is It Safe to Update Yet?",
+   "summary": "",
+   "source": "CineD",
+   "url": "https://www.cined.com/macos-27-golden-gate-for-video-editors-is-it-safe-to-update-yet/",
+   "auto": true
   },
   {
    "date": "2026-10-12",
