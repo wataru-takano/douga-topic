@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15",
+ "updated": "2026-10-16",
  "items": [
   {
    "date": "2026-11-15",
@@ -34,6 +34,33 @@
     ]
    ],
    "auto": false
+  },
+  {
+   "date": "2026-10-16",
+   "r": "海外",
+   "title": "Maxon’s Fall 2026 Release Brings Bigger Worlds, Faster Workflows, and Major Updates",
+   "summary": "",
+   "source": "No Film School",
+   "url": "https://nofilmschool.com/maxon-fall-2026-ecosystem-release",
+   "auto": true
+  },
+  {
+   "date": "2026-10-16",
+   "r": "海外",
+   "title": "Another Blackmagic Camera Update Is Here With Improved Stability and Improvements for Your Cameras",
+   "summary": "",
+   "source": "No Film School",
+   "url": "https://nofilmschool.com/blackmagic-camera-update-10-3-1",
+   "auto": true
+  },
+  {
+   "date": "2026-10-16",
+   "r": "国内",
+   "title": "動画編集の外付けSSDに選ぶべきはどれ？[Sponsored]",
+   "summary": "",
+   "source": "デジカメ Watch",
+   "url": "https://dc.watch.impress.co.jp/docs/topic/special/2148079.html",
+   "auto": true
   },
   {
    "date": "2026-10-15",
