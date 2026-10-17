@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17",
+ "updated": "2026-10-18",
  "items": [
   {
    "date": "2026-11-15",
@@ -87,6 +87,15 @@
    "summary": "",
    "source": "デジカメ Watch",
    "url": "https://dc.watch.impress.co.jp/docs/topic/special/2148079.html",
+   "auto": true
+  },
+  {
+   "date": "2026-10-15",
+   "r": "海外",
+   "title": "KOLAR BASIS Version 2.0 color grading plugin for Final Cut Pro",
+   "summary": "",
+   "source": "Newsshooter",
+   "url": "https://www.newsshooter.com/2026/10/15/kolar-basis-version-2-0-color-grading-plugin-for-final-cut-pro/",
    "auto": true
   },
   {
