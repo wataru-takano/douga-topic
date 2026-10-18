@@ -36,6 +36,25 @@
    "auto": false
   },
   {
+   "date": "2026-10-17",
+   "tag": "10月17日",
+   "r": "国内",
+   "title": "AviUtl ExEdit2 2.1.14 が公開",
+   "summary": "見た目の設定ファイル（style.conf）のフッター定義にバージョンの項目が加わり、LuaJITが更新されました。",
+   "note": "出典：AviUtlのお部屋（公式）、AviUtl2 更新履歴",
+   "links": [
+    [
+     "AviUtlのお部屋（公式）",
+     "https://spring-fragrance.mints.ne.jp/aviutl/"
+    ],
+    [
+     "更新履歴",
+     "https://docs.aviutl2.jp/changelog"
+    ]
+   ],
+   "auto": false
+  },
+  {
    "date": "2026-10-16",
    "r": "海外",
    "title": "Blackmagic Camera 10.3.1",
@@ -166,6 +185,21 @@
    "source": "RedShark News",
    "url": "https://www.redsharknews.com/blackmagic-asia-online-seminars-schedule",
    "auto": true
+  },
+  {
+   "date": "2026-10-10",
+   "tag": "10月10日",
+   "r": "国内",
+   "title": "AviUtl ExEdit2 2.1.13 が公開",
+   "summary": "テキスト編集中の「やり直し」で落ちる不具合の修正、レイヤーへの名前・背景色の設定、方向ブラーの片方向設定などが入りました。",
+   "note": "出典：AviUtl2 更新履歴",
+   "links": [
+    [
+     "更新履歴",
+     "https://docs.aviutl2.jp/changelog"
+    ]
+   ],
+   "auto": false
   },
   {
    "date": "2026-10-09",
