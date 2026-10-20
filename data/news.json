@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19",
+ "updated": "2026-10-20",
  "items": [
   {
    "date": "2026-11-15",
@@ -34,6 +34,33 @@
     ]
    ],
    "auto": false
+  },
+  {
+   "date": "2026-10-19",
+   "r": "海外",
+   "title": "Stem Separation Moves Into the Edit: What Enhance Audio Changes for Dialogue Workflows in Premiere (Beta)",
+   "summary": "",
+   "source": "ProVideo Coalition",
+   "url": "https://www.provideocoalition.com/stem-separation-moves-into-the-edit-what-enhance-audio-changes-for-dialogue-workflows-in-premiere-beta/",
+   "auto": true
+  },
+  {
+   "date": "2026-10-19",
+   "r": "海外",
+   "title": "Maxon 2027.0: Cinema 4D scatter, ZBrush UV Editor",
+   "summary": "",
+   "source": "RedShark News",
+   "url": "https://www.redsharknews.com/maxon-2027-cinema-4d-scatter-autograph-mcp",
+   "auto": true
+  },
+  {
+   "date": "2026-10-19",
+   "r": "国内",
+   "title": "読み放題にデザイン系実用書が追加！ 生成AIや「Figma」「After Effects」「Affinity」など【読み放題！TechLib新着情報】",
+   "summary": "",
+   "source": "窓の杜",
+   "url": "https://forest.watch.impress.co.jp/docs/bookwatch/techlibnew/2148201.html",
+   "auto": true
   },
   {
    "date": "2026-10-17",
