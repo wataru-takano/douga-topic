@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21",
+ "updated": "2026-10-22",
  "items": [
   {
    "date": "2026-11-15",
@@ -34,6 +34,42 @@
     ]
    ],
    "auto": false
+  },
+  {
+   "date": "2026-10-21",
+   "r": "海外",
+   "title": "Blackmagic Design raises prices on 36 Products",
+   "summary": "",
+   "source": "Newsshooter",
+   "url": "https://www.newsshooter.com/2026/10/20/blackmagic-design-raises-prices-on-36-products/",
+   "auto": true
+  },
+  {
+   "date": "2026-10-21",
+   "r": "海外",
+   "title": "Blackmagic Camera 10.3.2 Update",
+   "summary": "",
+   "source": "Newsshooter",
+   "url": "https://www.newsshooter.com/2026/10/20/blackmagic-camera-10-3-2-update/",
+   "auto": true
+  },
+  {
+   "date": "2026-10-21",
+   "r": "海外",
+   "title": "The Blackmagic URSA Cine 12K LF Gets Improved REST Control and Other Features in Latest Update",
+   "summary": "",
+   "source": "No Film School",
+   "url": "https://nofilmschool.com/blackmagic-camera-update-10-3-2",
+   "auto": true
+  },
+  {
+   "date": "2026-10-21",
+   "r": "海外",
+   "title": "Blackmagic Design Announces Price Increase on 36 Products Due to Rising Memory Costs",
+   "summary": "",
+   "source": "No Film School",
+   "url": "https://nofilmschool.com/blackmagic-design-price-increases-again",
+   "auto": true
   },
   {
    "date": "2026-10-21",
