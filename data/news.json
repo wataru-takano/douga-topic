@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22",
+ "updated": "2026-10-23",
  "items": [
   {
    "date": "2026-11-15",
@@ -34,6 +34,24 @@
     ]
    ],
    "auto": false
+  },
+  {
+   "date": "2026-10-22",
+   "r": "海外",
+   "title": "Treasure & Dirt–a six-part TV series shot on the Blackmagic URSA Cine 17K 65",
+   "summary": "",
+   "source": "Newsshooter",
+   "url": "https://www.newsshooter.com/2026/10/21/treasure-dirt-a-six-part-tv-series-shot-on-the-blackmagic-ursa-cine-17k-65/",
+   "auto": true
+  },
+  {
+   "date": "2026-10-22",
+   "r": "海外",
+   "title": "Blackmagic Design Raises Prices, Cuts Resolve | ArtCraft’s AI-Built Adobe Clones | Camera Form Factor Poll – Focus Check ep139",
+   "summary": "",
+   "source": "CineD",
+   "url": "https://www.cined.com/blackmagic-design-raises-prices-cuts-resolve-artcrafts-ai-built-adobe-clones-camera-form-factor-poll-focus-check-ep139/",
+   "auto": true
   },
   {
    "date": "2026-10-21",
