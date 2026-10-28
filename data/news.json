@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27",
+ "updated": "2026-10-28",
  "items": [
   {
    "date": "2026-11-15",
@@ -15,6 +15,114 @@
     ]
    ],
    "auto": false
+  },
+  {
+   "date": "2026-10-28",
+   "r": "海外",
+   "title": "MotionVFX coming to Apple Creator Studio in November",
+   "summary": "",
+   "source": "ProVideo Coalition",
+   "url": "https://www.provideocoalition.com/motionvfx-coming-to-apple-creator-studio-in-november/",
+   "auto": true
+  },
+  {
+   "date": "2026-10-28",
+   "r": "海外",
+   "title": "Apple Creator Studio update: MotionVFX and AI",
+   "summary": "",
+   "source": "RedShark News",
+   "url": "https://www.redsharknews.com/apple-creator-studio-motionvfx-final-cut-pro-update",
+   "auto": true
+  },
+  {
+   "date": "2026-10-28",
+   "r": "海外",
+   "title": "MotionVFX Content is Coming to Final Cut Pro as Apple Creator Studio Gets Overhaul",
+   "summary": "",
+   "source": "No Film School",
+   "url": "https://nofilmschool.com/motiongvfx-apple-creator-studio-update",
+   "auto": true
+  },
+  {
+   "date": "2026-10-28",
+   "r": "国内",
+   "title": "Apple Creator Studioが大型アップデート！ Final Cut ProにMotionVFX統合、Logic ProやKeynoteにAIアシスタント登場へ",
+   "summary": "",
+   "source": "APPBANK",
+   "url": "https://www.appbank.net/2026/10/28/iphone-news/3145502.php",
+   "auto": true
+  },
+  {
+   "date": "2026-10-27",
+   "r": "海外",
+   "title": "Apple Creator Studio brings built-in MotionVFX content to Final Cut Pro",
+   "summary": "",
+   "source": "Newsshooter",
+   "url": "https://www.newsshooter.com/2026/10/27/apple-creator-studio-brings-built-in-motionvfx-content-to-final-cut-pro/",
+   "auto": true
+  },
+  {
+   "date": "2026-10-27",
+   "r": "海外",
+   "title": "Blackmagic Design Fusion Studio 21.1.2",
+   "summary": "",
+   "source": "Newsshooter",
+   "url": "https://www.newsshooter.com/2026/10/26/blackmagic-design-fusion-studio-21-1-2/",
+   "auto": true
+  },
+  {
+   "date": "2026-10-27",
+   "r": "海外",
+   "title": "DaVinci Resolve 21.1.2",
+   "summary": "",
+   "source": "Newsshooter",
+   "url": "https://www.newsshooter.com/2026/10/26/davinci-resolve-21-1-2/",
+   "auto": true
+  },
+  {
+   "date": "2026-10-27",
+   "r": "海外",
+   "title": "Apple Creator Studio Update Announced – MotionVFX in Final Cut Pro, Generate Fill, Cinematic Mode Encoding",
+   "summary": "",
+   "source": "CineD",
+   "url": "https://www.cined.com/apple-creator-studio-update-announced-motionvfx-in-final-cut-pro-generate-fill-cinematic-mode-encoding/",
+   "auto": true
+  },
+  {
+   "date": "2026-10-27",
+   "r": "海外",
+   "title": "Apple Creator Studio Update Brings Massive Final Cut Pro Improvements",
+   "summary": "",
+   "source": "PetaPixel",
+   "url": "https://petapixel.com/2026/10/27/apple-creator-studio-update-brings-massive-final-cut-pro-improvements/",
+   "auto": true
+  },
+  {
+   "date": "2026-10-27",
+   "r": "海外",
+   "title": "Tool Tip Tuesday for Adobe Premiere: Save Source Assignment Presets",
+   "summary": "",
+   "source": "ProVideo Coalition",
+   "url": "https://www.provideocoalition.com/tool-tip-tuesday-for-adobe-premiere-save-source-assignment-presets/",
+   "auto": true
+  },
+  {
+   "date": "2026-10-27",
+   "r": "海外",
+   "title": "DaVinci Resolve 21.1.2: new features and fixes",
+   "summary": "",
+   "source": "RedShark News",
+   "url": "https://www.redsharknews.com/davinci-resolve-21-1-2-whats-new",
+   "auto": true
+  },
+  {
+   "date": "2026-10-27",
+   "r": "海外",
+   "title": "DaVinci Resolve is Getting Faster as Latest Update Boosts IntelliSearch and OGraf Playback",
+   "summary": "",
+   "source": "No Film School",
+   "url": "https://nofilmschool.com/davinci-resolve-update-21-1-2",
+   "auto": true
   },
   {
    "date": "2026-10-26",
