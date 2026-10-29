@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28",
+ "updated": "2026-10-29",
  "items": [
   {
    "date": "2026-11-15",
@@ -15,6 +15,15 @@
     ]
    ],
    "auto": false
+  },
+  {
+   "date": "2026-10-28",
+   "r": "海外",
+   "title": "Blackmagic Design Fairlight Live Audio Panel 10 Desktop Control Surface",
+   "summary": "",
+   "source": "Newsshooter",
+   "url": "https://www.newsshooter.com/2026/10/27/blackmagic-design-fairlight-live-audio-panel-10-desktop-control-surface/",
+   "auto": true
   },
   {
    "date": "2026-10-28",
