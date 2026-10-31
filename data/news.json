@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-10-31",
  "items": [
   {
    "date": "2026-11-15",
@@ -15,6 +15,51 @@
     ]
    ],
    "auto": false
+  },
+  {
+   "date": "2026-10-31",
+   "r": "海外",
+   "title": "Blackmagic Design Announces New UltraStudio Express HD",
+   "summary": "",
+   "source": "ProVideo Coalition",
+   "url": "https://www.provideocoalition.com/blackmagic-design-announces-new-ultrastudio-express-hd/",
+   "auto": true
+  },
+  {
+   "date": "2026-10-31",
+   "r": "海外",
+   "title": "Edit Faster in DaVinci Resolve With These Blackmagic Hardware Add-ons",
+   "summary": "",
+   "source": "No Film School",
+   "url": "https://nofilmschool.com/davinci-resolve-hardware-deals",
+   "auto": true
+  },
+  {
+   "date": "2026-10-30",
+   "r": "海外",
+   "title": "Blackmagic Design UltraStudio Express HD",
+   "summary": "",
+   "source": "Newsshooter",
+   "url": "https://www.newsshooter.com/2026/10/29/blackmagic-design-ultrastudio-express-hd/",
+   "auto": true
+  },
+  {
+   "date": "2026-10-30",
+   "r": "海外",
+   "title": "Rowan University explores Virtual Production workflows with Blackmagic",
+   "summary": "",
+   "source": "ProVideo Coalition",
+   "url": "https://www.provideocoalition.com/rowan-university-explores-virtual-production-workflows-with-blackmagic/",
+   "auto": true
+  },
+  {
+   "date": "2026-10-30",
+   "r": "海外",
+   "title": "Blackmagic UltraStudio Express HD: specs and price",
+   "summary": "",
+   "source": "RedShark News",
+   "url": "https://www.redsharknews.com/blackmagic-ultrastudio-express-hd",
+   "auto": true
   },
   {
    "date": "2026-10-28",
