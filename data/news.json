@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31",
+ "updated": "2026-11-01",
  "items": [
   {
    "date": "2026-11-15",
@@ -15,6 +15,15 @@
     ]
    ],
    "auto": false
+  },
+  {
+   "date": "2026-10-31",
+   "r": "海外",
+   "title": "Adobe MAX 2026 preview: keynotes and Sneaks",
+   "summary": "",
+   "source": "RedShark News",
+   "url": "https://www.redsharknews.com/adobe-max-2026-preview-miami-beach",
+   "auto": true
   },
   {
    "date": "2026-10-31",
