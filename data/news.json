@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01",
+ "updated": "2026-11-02",
  "items": [
   {
    "date": "2026-11-15",
@@ -15,6 +15,15 @@
     ]
    ],
    "auto": false
+  },
+  {
+   "date": "2026-11-01",
+   "r": "海外",
+   "title": "After Effects Portal October 2026",
+   "summary": "",
+   "source": "ProVideo Coalition",
+   "url": "https://www.provideocoalition.com/after-effects-portal-october-2026/",
+   "auto": true
   },
   {
    "date": "2026-10-31",
