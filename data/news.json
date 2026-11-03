@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-03",
  "items": [
   {
    "date": "2026-11-15",
@@ -15,6 +15,24 @@
     ]
    ],
    "auto": false
+  },
+  {
+   "date": "2026-11-03",
+   "r": "海外",
+   "title": "Blackmagic Design Rolls Out a Powerful New Capture and Playback Solution With Expanded Connectivity",
+   "summary": "",
+   "source": "No Film School",
+   "url": "https://nofilmschool.com/blackmagic-ultrastudio-express-hd",
+   "auto": true
+  },
+  {
+   "date": "2026-11-02",
+   "r": "海外",
+   "title": "Rough Cuts on a Freelancer’s Clock – Understanding Adobe Premiere’s AI tools",
+   "summary": "",
+   "source": "ProVideo Coalition",
+   "url": "https://www.provideocoalition.com/rough-cuts-on-a-freelancers-clock-understanding-adobe-premieres-ai-tools/",
+   "auto": true
   },
   {
    "date": "2026-11-01",
