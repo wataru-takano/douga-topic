@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "items": [
   {
    "date": "2026-11-15",
@@ -15,6 +15,51 @@
     ]
    ],
    "auto": false
+  },
+  {
+   "date": "2026-11-04",
+   "r": "海外",
+   "title": "Adobe adds licensed UMG and Warner Music tracks to Premiere Mobile",
+   "summary": "",
+   "source": "Newsshooter",
+   "url": "https://www.newsshooter.com/2026/11/03/adobe-adds-licensed-umg-and-warner-music-tracks-to-premiere-mobile/",
+   "auto": true
+  },
+  {
+   "date": "2026-11-04",
+   "r": "海外",
+   "title": "Adobe Is Bringing Licensed Music to Premiere Mobile",
+   "summary": "",
+   "source": "PetaPixel",
+   "url": "https://petapixel.com/2026/11/03/adobe-is-bringing-licensed-music-to-premiere-mobile/",
+   "auto": true
+  },
+  {
+   "date": "2026-11-04",
+   "r": "海外",
+   "title": "Tool Tip Tuesday for Adobe Premiere: The Default Keys I Remove",
+   "summary": "",
+   "source": "ProVideo Coalition",
+   "url": "https://www.provideocoalition.com/tool-tip-tuesday-for-adobe-premiere-the-default-keys-i-remove/",
+   "auto": true
+  },
+  {
+   "date": "2026-11-03",
+   "r": "海外",
+   "title": "Desert Palms captured with Blackmagic URSA Cine Immersive",
+   "summary": "",
+   "source": "ProVideo Coalition",
+   "url": "https://www.provideocoalition.com/desert-palms-captured-with-blackmagic-ursa-cine-immersive/",
+   "auto": true
+  },
+  {
+   "date": "2026-11-03",
+   "r": "海外",
+   "title": "Adobe Expands Music Options in Premiere Mobile With Major Music Group Partnerships",
+   "summary": "",
+   "source": "No Film School",
+   "url": "https://nofilmschool.com/adobe-premiere-mobile-music",
+   "auto": true
   },
   {
    "date": "2026-11-03",
