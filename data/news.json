@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05",
+ "updated": "2026-11-06",
  "items": [
   {
    "date": "2026-11-15",
@@ -15,6 +15,51 @@
     ]
    ],
    "auto": false
+  },
+  {
+   "date": "2026-11-06",
+   "r": "海外",
+   "title": "FxFactory PhotoAwake 3D for Final Cut Pro",
+   "summary": "",
+   "source": "Newsshooter",
+   "url": "https://www.newsshooter.com/2026/11/05/fxfactory-photoawake-3d-for-final-cut-pro/",
+   "auto": true
+  },
+  {
+   "date": "2026-11-06",
+   "r": "海外",
+   "title": "Touchscreen Editing Support Comes to DaVinci Resolve Along With Other Updates",
+   "summary": "",
+   "source": "No Film School",
+   "url": "https://nofilmschool.com/davinci-resolve-update-21-2",
+   "auto": true
+  },
+  {
+   "date": "2026-11-05",
+   "r": "海外",
+   "title": "Blackmagic Design DaVinci Resolve 21.2",
+   "summary": "",
+   "source": "Newsshooter",
+   "url": "https://www.newsshooter.com/2026/11/04/blackmagic-design-davinci-resolve-21-2/",
+   "auto": true
+  },
+  {
+   "date": "2026-11-05",
+   "r": "海外",
+   "title": "DaVinci Resolve 21.2: new features and fixes",
+   "summary": "",
+   "source": "RedShark News",
+   "url": "https://www.redsharknews.com/davinci-resolve-21-2-whats-new",
+   "auto": true
+  },
+  {
+   "date": "2026-11-05",
+   "r": "国内",
+   "title": "画像編集ソフト「GIMP 3.2.8」が公開 ～Windows 11の新しい印刷ダイアログに対応／右から左に書く言語のテキスト編集を改善、多数のセキュリティ修正も",
+   "summary": "",
+   "source": "窓の杜",
+   "url": "https://forest.watch.impress.co.jp/docs/news/2153763.html",
+   "auto": true
   },
   {
    "date": "2026-11-04",
