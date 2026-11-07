@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-07",
  "items": [
   {
    "date": "2026-11-15",
@@ -15,6 +15,33 @@
     ]
    ],
    "auto": false
+  },
+  {
+   "date": "2026-11-07",
+   "r": "海外",
+   "title": "DaVinci Resolve Now Supports Apple’s Brand-New Touchscreen Mac",
+   "summary": "",
+   "source": "PetaPixel",
+   "url": "https://petapixel.com/2026/11/06/davinci-resolve-now-supports-apples-brand-new-touchscreen-mac/",
+   "auto": true
+  },
+  {
+   "date": "2026-11-06",
+   "r": "海外",
+   "title": "DaVinci Resolve 21.2 Released – PROLED XDR Touch Support, Gen 6 Color Science LUTs, Up to 5x Faster Rendering on M5 Pro and M5 Max",
+   "summary": "",
+   "source": "CineD",
+   "url": "https://www.cined.com/davinci-resolve-21-2-released-proled-xdr-touch-support-gen-6-color-science-luts-up-to-5x-faster-rendering-on-m5-pro-and-m5-max/",
+   "auto": true
+  },
+  {
+   "date": "2026-11-06",
+   "r": "海外",
+   "title": "Adobe Premiere mobile adds UMG and WMG licensed music",
+   "summary": "",
+   "source": "RedShark News",
+   "url": "https://www.redsharknews.com/adobe-premiere-mobile-umg-wmg-licensed-music",
+   "auto": true
   },
   {
    "date": "2026-11-06",
