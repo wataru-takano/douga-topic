@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07",
+ "updated": "2026-11-08",
  "items": [
   {
    "date": "2026-11-15",
@@ -15,6 +15,15 @@
     ]
    ],
    "auto": false
+  },
+  {
+   "date": "2026-11-07",
+   "r": "海外",
+   "title": "C7 Adapters Leica M lens mount for Blackmagic URSA Cine LF/65 cameras",
+   "summary": "",
+   "source": "Newsshooter",
+   "url": "https://www.newsshooter.com/2026/11/07/c7-adapters-leica-m-lens-mount-for-blackmagic-ursa-cine-lf-65-cameras/",
+   "auto": true
   },
   {
    "date": "2026-11-07",
