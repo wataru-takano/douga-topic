@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "items": [
   {
    "date": "2026-11-15",
@@ -15,6 +15,105 @@
     ]
    ],
    "auto": false
+  },
+  {
+   "date": "2026-11-11",
+   "r": "海外",
+   "title": "Adobe ships Premiere 27 with Color Mode",
+   "summary": "",
+   "source": "ProVideo Coalition",
+   "url": "https://www.provideocoalition.com/adobe-ships-premiere-27-with-color-mode/",
+   "auto": true
+  },
+  {
+   "date": "2026-11-11",
+   "r": "海外",
+   "title": "Adobe MAX 2026 Premiere updates: Color Mode, MCP",
+   "summary": "",
+   "source": "RedShark News",
+   "url": "https://www.redsharknews.com/adobe-max-2026-premiere-color-mode-mcp",
+   "auto": true
+  },
+  {
+   "date": "2026-11-11",
+   "r": "海外",
+   "title": "Adobe MAX 2026: Local MCP Integrations Coming to Creative Cloud Tools (Like Premiere)",
+   "summary": "",
+   "source": "No Film School",
+   "url": "https://nofilmschool.com/adobe-local-mcp-integrations",
+   "auto": true
+  },
+  {
+   "date": "2026-11-10",
+   "r": "海外",
+   "title": "Projective Strawberry panel for DaVinci Resolve",
+   "summary": "",
+   "source": "Newsshooter",
+   "url": "https://www.newsshooter.com/2026/11/10/projective-strawberry-panel-for-davinci-resolve/",
+   "auto": true
+  },
+  {
+   "date": "2026-11-10",
+   "r": "海外",
+   "title": "Adobe’s Creative Agent Wants To Do the Photo and Video Editing Tasks You Don’t Want To",
+   "summary": "",
+   "source": "PetaPixel",
+   "url": "https://petapixel.com/2026/11/10/adobes-creative-agent-wants-to-do-the-photo-and-video-editing-tasks-you-dont-want-to/",
+   "auto": true
+  },
+  {
+   "date": "2026-11-10",
+   "r": "海外",
+   "title": "Premiere Update Brings Color Mode Out of Beta, Plus Generative Video & AI Audio Tools",
+   "summary": "",
+   "source": "PetaPixel",
+   "url": "https://petapixel.com/2026/11/10/premiere-update-brings-color-mode-out-of-beta-plus-generative-video-ai-audio-tools/",
+   "auto": true
+  },
+  {
+   "date": "2026-11-10",
+   "r": "海外",
+   "title": "Tool Tip Tuesday for Adobe Premiere: Don’t Upgrade Premiere… Yet",
+   "summary": "",
+   "source": "ProVideo Coalition",
+   "url": "https://www.provideocoalition.com/tool-tip-tuesday-for-adobe-premiere-dont-upgrade-premiere-yet/",
+   "auto": true
+  },
+  {
+   "date": "2026-11-10",
+   "r": "海外",
+   "title": "Adobe MAX 2026: Firefly and Premiere mobile to Provide New Ways to Create and Edit Content",
+   "summary": "",
+   "source": "No Film School",
+   "url": "https://nofilmschool.com/adobe-firefly-and-premiere-mobile-updates",
+   "auto": true
+  },
+  {
+   "date": "2026-11-10",
+   "r": "海外",
+   "title": "Adobe MAX 2026: What’s New for Filmmakers and Video Editors",
+   "summary": "",
+   "source": "No Film School",
+   "url": "https://nofilmschool.com/adobe-max-2026-updates",
+   "auto": true
+  },
+  {
+   "date": "2026-11-10",
+   "r": "国内",
+   "title": "「Adobe Firefly」にデザイン・動画編集機能を統合した新キャンバス Adobeアプリと他社製AIエージェントとの連携も強化",
+   "summary": "",
+   "source": "デジカメ Watch",
+   "url": "https://dc.watch.impress.co.jp/docs/news/2155297.html",
+   "auto": true
+  },
+  {
+   "date": "2026-11-10",
+   "r": "国内",
+   "title": "Photoshop、Lightroomに「目をひらく」など新機能 Premiere「カラーモード」が一般提供へ",
+   "summary": "",
+   "source": "デジカメ Watch",
+   "url": "https://dc.watch.impress.co.jp/docs/news/2155208.html",
+   "auto": true
   },
   {
    "date": "2026-11-10",
