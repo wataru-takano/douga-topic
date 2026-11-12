@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "items": [
   {
    "date": "2026-11-15",
@@ -15,6 +15,42 @@
     ]
    ],
    "auto": false
+  },
+  {
+   "date": "2026-11-12",
+   "r": "海外",
+   "title": "Blackmagic Ambisonic Microphone",
+   "summary": "",
+   "source": "Newsshooter",
+   "url": "https://www.newsshooter.com/2026/11/11/blackmagic-ambisonic-microphone/",
+   "auto": true
+  },
+  {
+   "date": "2026-11-12",
+   "r": "海外",
+   "title": "Premiere Pro’s Color Mode Adds More Control for Editors Finishing Their Own Work",
+   "summary": "",
+   "source": "ProVideo Coalition",
+   "url": "https://www.provideocoalition.com/premiere-pros-color-mode-adds-more-control-for-editors-finishing-their-own-work/",
+   "auto": true
+  },
+  {
+   "date": "2026-11-12",
+   "r": "海外",
+   "title": "The Blackmagic URSA Cine 12K LF Gets Improved Talkback, Tally, and Multicast 2110 IP Support",
+   "summary": "",
+   "source": "No Film School",
+   "url": "https://nofilmschool.com/blackmagic-camera-update-10-3-4",
+   "auto": true
+  },
+  {
+   "date": "2026-11-11",
+   "r": "海外",
+   "title": "Adobe Premiere 27.0 Released – Color Mode, AI Assistant Panel, and Generative Audio Tools",
+   "summary": "",
+   "source": "CineD",
+   "url": "https://www.cined.com/adobe-premiere-27-0-released-color-mode-ai-assistant-panel-and-generative-audio-tools/",
+   "auto": true
   },
   {
    "date": "2026-11-11",
