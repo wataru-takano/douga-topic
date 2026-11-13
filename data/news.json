@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "items": [
   {
    "date": "2026-11-15",
@@ -15,6 +15,69 @@
     ]
    ],
    "auto": false
+  },
+  {
+   "date": "2026-11-13",
+   "r": "海外",
+   "title": "Premiere on PC Gets a Boost as Adobe and Microsoft Announce Expansion of Partnership",
+   "summary": "",
+   "source": "No Film School",
+   "url": "https://nofilmschool.com/adobe-and-microsoft-partnership",
+   "auto": true
+  },
+  {
+   "date": "2026-11-13",
+   "r": "海外",
+   "title": "Hear That? The Blackmagic Ambisonic Microphone is Here to Capture Spatial Audio Over a Single USB-C",
+   "summary": "",
+   "source": "No Film School",
+   "url": "https://nofilmschool.com/blackmagic-ambisonic-microphone",
+   "auto": true
+  },
+  {
+   "date": "2026-11-12",
+   "r": "海外",
+   "title": "Blackmagic Ambisonic Microphone Announced – 7th Order Ambisonics, 108 MEMS Microphones, Single USB-C Cable",
+   "summary": "",
+   "source": "CineD",
+   "url": "https://www.cined.com/blackmagic-ambisonic-microphone-announced-7th-order-ambisonics-108-mems-microphones-single-usb-c-cable/",
+   "auto": true
+  },
+  {
+   "date": "2026-11-12",
+   "r": "海外",
+   "title": "Blackmagic’s $1,695 Spatial Audio Mic Has 108 Mics and Looks Super Sci-Fi",
+   "summary": "",
+   "source": "PetaPixel",
+   "url": "https://petapixel.com/2026/11/12/blackmagics-1695-spatial-audio-mic-has-108-mics-and-looks-super-sci-fi/",
+   "auto": true
+  },
+  {
+   "date": "2026-11-12",
+   "r": "海外",
+   "title": "Blackmagic announces its Ambisonic Microphone, for true spatial audio",
+   "summary": "",
+   "source": "ProVideo Coalition",
+   "url": "https://www.provideocoalition.com/blackmagic-announces-its-ambisonic-microphone-for-true-spatial-audio/",
+   "auto": true
+  },
+  {
+   "date": "2026-11-12",
+   "r": "海外",
+   "title": "Adobe MAX 2026 Sneaks: all 10 projects",
+   "summary": "",
+   "source": "RedShark News",
+   "url": "https://www.redsharknews.com/adobe-max-2026-sneaks-projects-labs-playground",
+   "auto": true
+  },
+  {
+   "date": "2026-11-12",
+   "r": "海外",
+   "title": "Blackmagic Ambisonic Microphone: specs and price",
+   "summary": "",
+   "source": "RedShark News",
+   "url": "https://www.redsharknews.com/blackmagic-ambisonic-microphone-7th-order",
+   "auto": true
   },
   {
    "date": "2026-11-12",
