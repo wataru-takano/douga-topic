@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13",
+ "updated": "2026-11-14",
  "items": [
   {
    "date": "2026-11-15",
@@ -15,6 +15,42 @@
     ]
    ],
    "auto": false
+  },
+  {
+   "date": "2026-11-14",
+   "r": "海外",
+   "title": "Bad Interview Audio? Premiere Can Fix That.",
+   "summary": "",
+   "source": "No Film School",
+   "url": "https://nofilmschool.com/bad-interview-audio-premiere-can-fix-that",
+   "auto": true
+  },
+  {
+   "date": "2026-11-14",
+   "r": "海外",
+   "title": "Projective’s Multi-NLE Collaboration and Management Panel Set to Add DaVinci Resolve Integration",
+   "summary": "",
+   "source": "No Film School",
+   "url": "https://nofilmschool.com/strawberry-for-davinci-resolve",
+   "auto": true
+  },
+  {
+   "date": "2026-11-13",
+   "r": "海外",
+   "title": "Rescue Your Interview Audio Without Leaving Premiere",
+   "summary": "",
+   "source": "ProVideo Coalition",
+   "url": "https://www.provideocoalition.com/rescue-your-interview-audio-without-leaving-premiere/",
+   "auto": true
+  },
+  {
+   "date": "2026-11-13",
+   "r": "海外",
+   "title": "Adobe MAX 2026 on demand: 13 video sessions",
+   "summary": "",
+   "source": "RedShark News",
+   "url": "https://www.redsharknews.com/adobe-max-2026-top-video-sessions",
+   "auto": true
   },
   {
    "date": "2026-11-13",
