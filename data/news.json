@@ -1,6 +1,24 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "items": [
+  {
+   "date": "2026-11-20",
+   "r": "海外",
+   "title": "Blackmagic Ambisonic Microphone First Look at Inter BEE 2026",
+   "summary": "",
+   "source": "Newsshooter",
+   "url": "https://www.newsshooter.com/2026/11/19/blackmagic-ambisonic-microphone-first-look-at-inter-bee-2026/",
+   "auto": true
+  },
+  {
+   "date": "2026-11-20",
+   "r": "海外",
+   "title": "LUMIX SHX1: Is Panasonic Back for Video Pros? | Final Cut Pro 13 with MotionVFX, Reviewed | Camera Firmware Hacks – Focus Check ep143",
+   "summary": "",
+   "source": "CineD",
+   "url": "https://www.cined.com/lumix-shx1-is-panasonic-back-for-video-pros-final-cut-pro-13-with-motionvfx-reviewed-camera-firmware-hacks-focus-check-ep143/",
+   "auto": true
+  },
   {
    "date": "2026-11-19",
    "r": "海外",
@@ -1106,15 +1124,6 @@
     ]
    ],
    "auto": false
-  },
-  {
-   "date": "2026-10-05",
-   "r": "海外",
-   "title": "Roundup: New software for video editors",
-   "summary": "",
-   "source": "ProVideo Coalition",
-   "url": "https://www.provideocoalition.com/roundup-new-software-for-video-editors/",
-   "auto": true
   },
   {
    "date": "2026-10-05",
