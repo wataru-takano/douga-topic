@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "items": [
+  {
+   "date": "2026-11-22",
+   "r": "海外",
+   "title": "OZ Racing’s Rally Legend campaign shot on Blackmagic 12K",
+   "summary": "",
+   "source": "RedShark News",
+   "url": "https://www.redsharknews.com/oz-racing-rally-legend-blackmagic-12k",
+   "auto": true
+  },
   {
    "date": "2026-11-20",
    "r": "海外",
@@ -1090,24 +1099,6 @@
    "summary": "",
    "source": "No Film School",
    "url": "https://nofilmschool.com/blackmagic-camera-for-android-3-5",
-   "auto": true
-  },
-  {
-   "date": "2026-10-08",
-   "r": "海外",
-   "title": "Blackmagic Camera for Android 3.5",
-   "summary": "",
-   "source": "Newsshooter",
-   "url": "https://www.newsshooter.com/2026/10/07/blackmagic-camera-for-android-3-5/?utm_source=rss&utm_medium=rss&utm_campaign=blackmagic-camera-for-android-3-5",
-   "auto": true
-  },
-  {
-   "date": "2026-10-08",
-   "r": "海外",
-   "title": "Someone Rebuilt Free, Open-Source Versions of Photoshop, Premiere, and Lightroom Using AI",
-   "summary": "",
-   "source": "PetaPixel",
-   "url": "https://petapixel.com/2026/10/07/someone-rebuilt-free-open-source-versions-of-photoshop-premiere-and-lightroom-using-ai/",
    "auto": true
   },
   {
