@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "items": [
+  {
+   "date": "2026-11-24",
+   "r": "国内",
+   "title": "動画生成AI、Premiere Pro、Blenderなど動画・CG本が安い！Kindle本 冬のビッグセール／『「作りたい」をカタチにする動画生成AI』が50％OFFの1,265円など【Book Watch/セール情報】",
+   "summary": "",
+   "source": "窓の杜",
+   "url": "https://forest.watch.impress.co.jp/docs/bookwatch/sale/2158578.html",
+   "auto": true
+  },
   {
    "date": "2026-11-22",
    "r": "海外",
@@ -1091,15 +1100,6 @@
     ]
    ],
    "auto": false
-  },
-  {
-   "date": "2026-10-09",
-   "r": "海外",
-   "title": "Blackmagic Camera for Android 3.5 Adds 10-bit Remote Previews and Android 17 Optimization",
-   "summary": "",
-   "source": "No Film School",
-   "url": "https://nofilmschool.com/blackmagic-camera-for-android-3-5",
-   "auto": true
   },
   {
    "date": "2026-10-06",
